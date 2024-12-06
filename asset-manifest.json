@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Knock/static/css/main.890a5b54.css",
+    "main.js": "/Knock/static/js/main.ba74b284.js",
+    "static/js/592.ba1a0724.chunk.js": "/Knock/static/js/592.ba1a0724.chunk.js",
+    "static/media/downloading.png": "/Knock/static/media/downloading.8fb6223020ce1ab99dae.png",
+    "static/media/screan.png": "/Knock/static/media/screan.fea157b354e8d83150bb.png",
+    "static/media/main.webp": "/Knock/static/media/main.c876795a490cb8da00de.webp",
+    "static/media/Rectangle 195.png": "/Knock/static/media/Rectangle 195.1accd53f12958d0b507b.png",
+    "static/media/person(3).avif": "/Knock/static/media/person(3).01fd113df402a209ea0e.avif",
+    "static/media/head.jpg": "/Knock/static/media/head.ef24b58dfe4ac82b2703.jpg",
+    "static/media/profile-pc.webp": "/Knock/static/media/profile-pc.efadb13dba95b5bc918b.webp",
+    "static/media/gooapp.PNG": "/Knock/static/media/gooapp.9cdbe9fc41494c6ba25b.PNG",
+    "static/media/topquality.PNG": "/Knock/static/media/topquality.4baf090983ba48333a26.PNG",
+    "static/media/calendar (1).svg": "/Knock/static/media/calendar (1).62c87ae182d2fee90680cda7695c3420.svg",
+    "static/media/star.svg": "/Knock/static/media/star.e8062266c4ad1dec1a8d27ff8e21e530.svg",
+    "index.html": "/Knock/index.html",
+    "main.890a5b54.css.map": "/Knock/static/css/main.890a5b54.css.map",
+    "main.ba74b284.js.map": "/Knock/static/js/main.ba74b284.js.map",
+    "592.ba1a0724.chunk.js.map": "/Knock/static/js/592.ba1a0724.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.890a5b54.css",
+    "static/js/main.ba74b284.js"
+  ]
+}
