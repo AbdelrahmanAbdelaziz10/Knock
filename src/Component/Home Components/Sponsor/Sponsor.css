@@ -1,0 +1,46 @@
+
+/* Start in Sponsor Section  Style */
+.Justlife_protects {
+    background: #008080;
+}
+
+.Justlife_protects .col-lg-3 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+}
+
+.sponser img {
+    width: 100%;
+}
+.Justlife_protects h2,
+.Justlife_protects p{
+    color: #fff;
+}
+.Justlife_protects .sponsor_text {
+    margin-right: 3rem;
+}
+
+.Justlife_protects .sponsor_text h2,
+.Justlife_protects .sponsor_text p {
+    color: #fff;
+    font-family: HKGrotesk, sans-serif;
+}
+
+.Justlife_protects .sponsor_text h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.Justlife_protects .sponsor_text p {
+    margin-top: 1rem;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+/* End in Sponsor Section  Style */

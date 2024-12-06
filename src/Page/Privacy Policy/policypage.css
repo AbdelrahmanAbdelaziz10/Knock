@@ -1,0 +1,20 @@
+.main_policy{
+    padding: 2rem 0;
+}
+.main_policy h2{
+font-size: 2rem;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+color: #008080;
+padding-bottom: 1.5rem ;
+}
+.main_policy p{
+font-size: 18px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+line-height: 30px;
+color: #000000af;
+}

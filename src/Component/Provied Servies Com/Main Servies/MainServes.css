@@ -1,0 +1,33 @@
+.main_serves{
+    background-color: #f5f5f5 !important;
+}
+.main_serves .oneservies{
+    margin-bottom:2rem ;
+}
+.main_serves .oneservies .servies_image .link img{
+}
+.main_serves .oneservies .servies_image .link p{
+    color: #008080 !important;
+    padding-top: 2rem;
+}
+.search_input{
+    width: 100% !important;
+    height: 7vh;
+    border: 1px solid #008080;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: 2px 2px 10px #0000004f;
+}
+.ltr .search_input{
+    padding-left: 2rem;
+
+}
+.rtl .search_input{
+    padding-right: 2rem;
+
+}
+.search_input:focus{
+    border: 2px solid #008080 !important;
+
+}

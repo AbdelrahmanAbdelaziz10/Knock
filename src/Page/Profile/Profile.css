@@ -1,0 +1,79 @@
+.profile {
+    background-color: #fafafa;
+}
+
+.profile .form .form_head {
+    overflow: hidden;
+    width: 90% !important;
+}
+
+.profile .form .form_head h4 {
+    margin: 1rem 0;
+
+}
+
+.profile .form_head img {
+    border-radius: 50%;
+    height: 100px !important;
+    width: 100px;
+}
+
+.profile .form .form-control {
+    border: 0 !important;
+    border-bottom: 2px solid #2D9696 !important;
+    border-radius: 0 !important;
+    padding-left: 1rem !important;
+}
+
+.profile .form .form-select {
+    border: 0 !important;
+    border-bottom: 2px solid #2D9696 !important;
+    border-radius: 0 !important;
+    width: 40% !important;
+}
+
+.profile .form .form-control:focus,
+.profile .form .form-select:focus {
+    border: 2px solid #2D9696 !important;
+    border-radius: 10px !important;
+}
+
+.profile .form {
+    margin: 2rem 0rem;
+}
+
+.profile .form_head h4 {
+    color: #008080;
+    text-align: center;
+    font-size: 23px;
+    margin-top: .5rem;
+}
+
+.profile .delete_acc {
+    cursor: pointer;
+    transition: all .5rem;
+
+}
+
+.profile .delete {
+    color: #EA001B;
+    font-size: 1.7rem;
+}
+
+.ltr .profile .delete {
+    margin-right: .5rem;
+}
+
+.rtl .profile .delete {
+    margin-left: .5rem;
+}
+
+.profile .delete_account {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EA001B;
+    padding-top: .3rem;
+}

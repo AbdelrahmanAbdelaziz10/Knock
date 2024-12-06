@@ -1,0 +1,219 @@
+.dropmenu {
+    position: absolute;
+    top: 4.4rem;
+    right: 5rem;
+    background-color: #fff;
+    text-align: right;
+    width: 20vw;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 2px 2px 10px #00000096;
+    display: none;
+    z-index: 111111;
+}
+
+.display-block {
+    display: block;
+}
+
+/* Start In NavBar Section Style */
+.navbar {
+    height: 12vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    direction: ltr;
+}
+
+.navbar .navbar-brand {
+    width: 9%;
+}
+
+.navbar .form .btn {
+    margin: 0 .5rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar .form .btn-flag {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 0 !important;
+    overflow: hidden;
+    margin-top: .7rem;
+}
+
+.navbar .form .btn-flag img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .form .btn:hover {
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+}
+
+.navbar .form .btn-menu {
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar .form .btn-menu i {
+    font-size: 1.3rem;
+    margin: .2rem 0;
+}
+
+.navbar .form .btn-menu .fa-user {
+    color: #383838;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.fa-bars {
+    font-size: 1.5rem;
+    color: #383838;
+}
+
+.dropmenu .row {
+    border-radius: 5px;
+    width: 97%;
+    margin: 0 .3rem;
+    cursor: pointer;
+}
+
+.dropmenu .row_hover:hover {
+    background-color: #00808069;
+    border: 1px solid #008080;
+}
+
+.dropmenu p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dropmenu .flag {
+    border-radius: 50% !important;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+.dropmenu .login_flag {
+    font-size: 1.5rem;
+    margin-top: -.5rem !important;
+    color: #008080;
+}
+
+.ltr .login_deopmenu .country_name {
+    text-align: left;
+}
+
+.rtl .login_deopmenu .country_name {
+    text-align: right;
+}
+
+.dropmenu .country_name p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.dropmenu .flag img {
+    width: 100%;
+    height: 100%;
+}
+
+.dropmenu.singup .row:hover {
+    background-color: #fff;
+    border: none;
+}
+
+.dropmenu .btn-login {
+    background-color: #ffd03e;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.dropmenu .btn-login:hover {
+    background-color: #ffd03e;
+    color: #fff;
+    opacity: .8;
+}
+
+.dropmenu .row.border_top {
+    padding-top: 1rem !important;
+    border-top: 1px solid #0000006c;
+    border-radius: 0;
+
+}
+
+.help_nav p.direction {
+    color: #000 !important;
+}
+
+.rtl .dropmenu .fa-circle-question {
+    margin-left: .5rem;
+}
+
+.ltr .dropmenu .fa-circle-question {
+    margin-right: .5rem;
+}
+
+.ltr .dropmenu .direction {
+    direction: ltr !important;
+    text-align: left;
+}
+
+.log_out {
+    color: #EA001B !important;
+}
+
+.log_out_div:hover {
+    background-color: #ea001b56 !important;
+}
+
+.navbar .form .buy_product {
+    color: #008080;
+    font-size: 1.5rem;
+    margin-top: .8rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar .form .number {
+    background-color: #EA001B;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    height: 22px !important;
+    width: 22px !important;
+    border-radius: 50%;
+    position: absolute;
+    top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ltr .navbar .form .number {
+    right: 24.8%;
+
+}
+
+.rtl .navbar .form .number {
+    right: 25.5%;
+
+}
+
+/* End In NavBar Section Style */
+/* شاشات كبيرة جدًا */

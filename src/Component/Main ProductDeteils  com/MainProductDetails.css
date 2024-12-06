@@ -1,0 +1,163 @@
+.product_details_false {
+    overflow-y: hidden !important;
+    height: 100vh !important;
+}
+
+.product_head {
+    height: 50vh;
+}
+
+.product_head .head_image {
+    height: 100%;
+    width: 50%;
+    padding: .5rem 0;
+}
+
+.product_head .home_icon {
+    color: #008080;
+    font-size: 20px;
+}
+
+.product_head span,
+.product_head .page1 {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-book {
+    width: 100%;
+}
+
+.ltr .btn-book {
+    margin-left: 7rem;
+}
+
+.rtl .btn-book {
+    margin-right: 7rem;
+}
+
+.btn-Add.next {
+    padding: 7px 45px;
+}
+
+.ltr .nots .icon {
+    font-size: 2.2rem !important;
+}
+
+.rtl .nots .icon {
+    font-size: 1.5rem !important;
+}
+
+.nots_add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem !important;
+}
+
+.nots .input_nots {
+    width: 90%;
+    border: none !important;
+    border-bottom: 2px solid #008080 !important;
+    background-color: #d3d3d35e !important;
+    border-radius: 0 !important;
+
+}
+
+.rtl .nots .input_nots {
+    border-right: 0px !important;
+}
+
+.ltr .nots .input_nots {}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #fff !important;
+    background-color: #00808093 !important;
+    border: none !important;
+    opacity: .7;
+}
+
+.Alert {
+    margin-top: 1rem !important;
+    width: 70% !important;
+    text-align: center !important;
+    font-weight: 500;
+}
+
+.total_price .price {
+    color: #000;
+    font-size: 15px;
+}
+
+.card_details {
+    box-shadow: 2px 2px 10px #00000071;
+    padding: 1rem .5rem;
+}
+
+.card_details .details .product_name {
+    color: #008080;
+}
+
+.card_details .details p {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000;
+}
+
+.card_details .stock h4 {
+    font-size: 1.2rem;
+    color: #000;
+
+}
+
+.card_details .stock h4 span {
+    color: #008080;
+}
+
+.ltr .card_details .stock .sku {
+    margin-left: 9rem;
+}
+
+.rtl .card_details .stock .sku {
+    margin-right: 9rem;
+}
+
+.product_header .home_icon {
+    color: #008080;
+    font-size: 20px;
+}
+
+.product_header span,
+.product_header .page1 {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main_product_details .time_date .time_input .input_time {
+    border: 2px solid #008080;
+    width: 80%;
+    height: 6vh;
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+
+.ltr .main_product_details .time_date .time_input .input_time {
+    margin-left: 2rem;
+}
+
+.rtl .main_product_details .time_date .time_input .input_time {
+    margin-right: 2rem;
+}
+
+.product_img {
+    max-height: 60vh;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.product_img img {
+    height: 100%;
+    width: 100%;
+}

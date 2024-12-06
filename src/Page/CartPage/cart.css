@@ -1,0 +1,12 @@
+.main_card .btn_decrease{
+    padding: 2px 5px !important;
+    border-radius: 2px !important;
+}
+
+.book_card .serv_text .btn_decrease {
+    margin: 0rem 1rem !important;
+}
+.main_card .btn_decrease .add_icon{
+    color: #fff !important;
+    font-size: 18px !important;
+}

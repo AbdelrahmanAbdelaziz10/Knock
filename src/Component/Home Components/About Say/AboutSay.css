@@ -1,0 +1,107 @@
+/* Start In About Say Section Style */
+.aboutsay {
+    background-color: lavender;
+}
+
+.aboutsay h3 {
+    color: #008080;
+    padding-bottom: .7rem;
+}
+
+.aboutsay p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.aboutsay .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+.aboutsay .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.aboutsay .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/* Start In Slider Style */
+.aboutsay .swiper {
+    width: 70vw;
+    height: 45vh !important;
+    background-color: #FFF !important;
+    border-radius: 10px;
+    direction: ltr;
+}
+
+.aboutsay .swiper .swiper-slide {
+    text-align: center;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 75vw;
+    /* margin:0 2rem ; */
+}
+
+.aboutsay .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutsay .swiper .person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.aboutsay .swiper .person .person_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.aboutsay .swiper .person span {
+    color: #008080;
+    font-size: 19px;
+}
+
+.aboutsay .swiper .swiper-slide p {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    margin-bottom: 4rem;
+}
+
+.aboutsay .swiper-button-next i,
+.aboutsay .swiper-button-prev i {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color: #008080;
+}
+
+
+
+/* End In About Say Section Style */
+  

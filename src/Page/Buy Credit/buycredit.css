@@ -1,0 +1,29 @@
+.main_buy{
+    overflow: hidden !important;
+    background-color: #fafafa;
+}
+.main_buy .knock_credit p{
+    color: #000000af;
+    font-size: 17px;
+}
+.main_buy .knock_credit h4{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.main_buy .buy_credit{
+    padding: .5rem 2rem;
+    background-color: #008080;
+    border: 0;
+}
+.main_buy .buy_credit p{
+    font-size: 18px;
+    color: #fff;
+}
+.main_buy .send_gift p{
+    color: #008080;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: .5rem;
+}

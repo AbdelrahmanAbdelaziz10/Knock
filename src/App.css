@@ -1,0 +1,78 @@
+.display_none {
+    display: none;
+}
+
+.leaftel-container {
+    height: 80vh !important;
+    width: 100vw;
+}
+
+.pending_phone .serves_name {
+    padding: 0 !important;
+}
+
+.Delete_Icon {
+    font-size: 1.4rem;
+    color: red;
+    cursor: pointer;
+}
+
+.product_details_order {}
+
+.order_card_one {
+    cursor: pointer;
+}
+
+.product_details_order {}
+
+.exit_icon {
+    cursor: pointer;
+    color: #008080;
+    font-size: 1.8rem;
+}
+
+.product_details_order {
+    position: fixed;
+    z-index: 111111;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.custom-toast-container .Toastify__toast {
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+}
+
+.profile_page .navbar,
+.add_address .navbar,
+.credit .navbar,
+.product_details .navbar,
+.book .navbar {
+    box-shadow: 2px 2px 10px #00000034;
+}
+
+.nots span {
+    color: #008080;
+}
+
+.card.one_Product .card_text_product .details_btn {
+    display: flex;
+    justify-content: end !important;
+}
+
+.policy_row {
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .product_details_order {
+        max-width: 50vw;
+    }
+}

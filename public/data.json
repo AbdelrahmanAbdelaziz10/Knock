@@ -1,0 +1,564 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name_en": "Cleaning Service",
+      "name_ar": "خدمة التنظيف",
+      "image": "/Images/ServesImages/cleaning1.jpeg",
+      "description_en": "Our professional house cleaning service provides thorough and detailed cleaning for every corner of your home. From dusting and vacuuming to mopping and sanitizing, our expert team ensures a spotless and hygienic environment for you and your family.",
+      "description_ar": "خدمة تنظيف المنازل لدينا تقدم تنظيفًا شاملاً ومفصلاً لكل زاوية من منزلك. من إزالة الغبار والشفط إلى المسح والتعقيم، يضمن فريقنا المحترف بيئة نظيفة وصحية لك ولعائلتك.",
+      "price": 100,
+      "code": 111001,
+      "category": "Home Services"
+    },
+    {
+      "id": 2,
+      "name_en": "Plumbing Service",
+      "name_ar": "خدمة السباكة",
+      "image": "/Images/ServesImages/plumbing1.jpeg",
+      "description_en": "Our quick and reliable plumbing service is here to handle all your plumbing needs, from fixing leaks and unclogging drains to installing new fixtures and performing routine maintenance. Trust our skilled plumbers for efficient and lasting solutions.",
+      "description_ar": "خدمة السباكة السريعة والموثوقة لدينا جاهزة لتلبية جميع احتياجاتك، من إصلاح التسريبات وفتح المصارف المسدودة إلى تركيب التجهيزات الجديدة وإجراء الصيانة الدورية. اعتمد على سباكينا المهرة للحصول على حلول فعالة ودائمة.",
+      "price": 150,
+      "code": 111002,
+      "category": "Home Services"
+    },
+    {
+      "id": 3,
+      "name_en": "Electrical Repairs",
+      "name_ar": "إصلاحات كهربائية",
+      "image": "/Images/ServesImages/electric1.jpeg",
+      "description_en": "Our expert electrical repair services cover a wide range of needs, including fixing wiring issues, installing lights, and troubleshooting electrical faults. With safety and precision as our top priorities, we ensure your electrical systems run smoothly and reliably.",
+      "description_ar": "تغطي خدمات إصلاح الكهرباء الاحترافية لدينا مجموعة واسعة من الاحتياجات، بما في ذلك إصلاح مشاكل الأسلاك، وتركيب الإضاءة، وحل الأعطال الكهربائية. مع التركيز على السلامة والدقة، نضمن تشغيل أنظمتك الكهربائية بسلاسة وموثوقية.",
+      "price": 120,
+      "code": 111003,
+      "category": "Home Services"
+    },
+    {
+      "id": 4,
+      "name_en": "Gardening Service",
+      "name_ar": "خدمة البستنة",
+      "image": "/Images/ServesImages/gardening1.jpeg",
+      "description_en": "Our gardening service helps you maintain a lush and healthy garden. From trimming hedges and mowing lawns to planting flowers and removing weeds, our team brings life and vibrancy to your outdoor space.",
+      "description_ar": "تساعدك خدمة البستنة لدينا في الحفاظ على حديقة خضراء وصحية. من تقليم الشجيرات وجز العشب إلى زراعة الزهور وإزالة الأعشاب الضارة، يجلب فريقنا الحيوية والنشاط لمساحتك الخارجية.",
+      "price": 200,
+      "code": 111004,
+      "category": "Outdoor Services"
+    },
+    {
+      "id": 5,
+      "name_en": "AC Repair",
+      "name_ar": "إصلاح التكييف",
+      "image": "/Images/ServesImages/ac_repair1.jpeg",
+      "description_en": "Our air conditioning repair service ensures your AC unit operates efficiently and reliably. From diagnosing and fixing issues to performing routine maintenance, we help keep your home cool and comfortable year-round.",
+      "description_ar": "خدمة إصلاح التكييف لدينا تضمن تشغيل وحدة التكييف لديك بكفاءة وموثوقية. من تشخيص وإصلاح المشكلات إلى إجراء الصيانة الدورية، نساعد في الحفاظ على برودة وراحة منزلك طوال العام.",
+      "price": 250,
+      "code": 111005,
+      "category": "Home Services"
+    },
+    {
+      "id": 6,
+      "name_en": "Painting Service",
+      "name_ar": "خدمة الطلاء",
+      "image": "/Images/ServesImages/painting1.jpeg",
+      "description_en": "Transform your space with our professional house painting service. Whether you need a fresh coat for your walls, ceilings, or exteriors, our team uses high-quality paints and meticulous techniques to achieve a flawless finish.",
+      "description_ar": "قم بتحويل مساحتك مع خدمة الطلاء الاحترافية لدينا. سواء كنت بحاجة إلى طبقة طلاء جديدة لجدرانك أو أسقفك أو الواجهات الخارجية، يستخدم فريقنا دهانات عالية الجودة وتقنيات دقيقة للحصول على تشطيب مثالي.",
+      "price": 300,
+      "code": 111006,
+      "category": "Renovation Services"
+    },
+    {
+      "id": 7,
+      "name_en": "Carpet Cleaning",
+      "name_ar": "تنظيف السجاد",
+      "image": "/Images/ServesImages/carpet_cleaning1.jpg",
+      "description_en": "Our deep carpet cleaning service removes stubborn stains, dust, and allergens from your carpets, leaving them fresh, clean, and revitalized. With advanced cleaning methods and eco-friendly products, we ensure your carpets look and feel as good as new.",
+      "description_ar": "خدمة تنظيف السجاد العميقة لدينا تزيل البقع العنيدة والغبار والمواد المسببة للحساسية من السجاد، مما يتركه نظيفًا ومنعشًا ومتجددًا. باستخدام طرق تنظيف متقدمة ومنتجات صديقة للبيئة، نضمن أن يبدو السجاد وكأنه جديد.",
+      "price": 180,
+      "code": 111007,
+      "category": "Cleaning Services"
+    },
+    {
+      "id": 8,
+      "name_en": "Pest Control",
+      "name_ar": "مكافحة الآفات",
+      "image": "/Images/ServesImages/pest_control1.jpeg",
+      "description_en": "Our pest control solutions effectively eliminate pests such as rodents, insects, and termites, ensuring a safe and comfortable living environment. We use safe, modern techniques to protect your home from infestations.",
+      "description_ar": "حلول مكافحة الآفات لدينا تقضي على الآفات مثل القوارض والحشرات والنمل الأبيض بفعالية، مما يضمن بيئة معيشية آمنة ومريحة. نستخدم تقنيات حديثة وآمنة لحماية منزلك من الإصابات.",
+      "price": 400,
+      "code": 111008,
+      "category": "Home Services"
+    },
+    {
+      "id": 9,
+      "name_en": "Window Cleaning",
+      "name_ar": "تنظيف النوافذ",
+      "image": "/Images/ServesImages/window_cleaning1.jpeg",
+      "description_en": "Our window cleaning service ensures your windows sparkle, providing a clear and streak-free view. We handle all types of windows, including high-rise and hard-to-reach areas, using specialized tools for a perfect finish.",
+      "description_ar": "خدمة تنظيف النوافذ لدينا تضمن لمعان النوافذ، مما يوفر رؤية واضحة وخالية من الخطوط. نتعامل مع جميع أنواع النوافذ، بما في ذلك تلك العالية والصعبة الوصول، باستخدام أدوات متخصصة للحصول على تشطيب مثالي.",
+      "price": 150,
+      "code": 111009,
+      "category": "Cleaning Services"
+    },
+    {
+      "id": 10,
+      "name_en": "Furniture Assembly",
+      "name_ar": "تجميع الأثاث",
+      "image": "/Images/ServesImages/furniture_assembly1.jpeg",
+      "description_en": "Our efficient furniture assembly service saves you time and hassle. From simple chairs to complex modular furniture, our skilled technicians ensure every piece is assembled correctly and securely.",
+      "description_ar": "خدمة تجميع الأثاث لدينا توفر عليك الوقت والعناء. من الكراسي البسيطة إلى الأثاث المعياري المعقد، يضمن فنيو الفريق المهرة تجميع كل قطعة بشكل صحيح وآمن.",
+      "price": 200,
+      "code": 111010,
+      "category": "Handyman Services"
+    },
+    {
+      "id": 11,
+      "name_en": "Moving Service",
+      "name_ar": "خدمة النقل",
+      "image": "/Images/ServesImages/moving1.jpeg",
+      "description_en": "Our stress-free moving service handles every aspect of your relocation, from packing and transportation to unloading and setup. With experienced movers and reliable vehicles, we make your move smooth and worry-free.",
+      "description_ar": "خدمة النقل الخالية من الإجهاد لدينا تتعامل مع جميع جوانب انتقالك، من التعبئة والنقل إلى التفريغ والتركيب. مع عمال نقل ذوي خبرة ومركبات موثوقة، نجعل انتقالك سلسًا وخاليًا من القلق.",
+      "price": 500,
+      "code": 111011,
+      "category": "Logistics Services"
+    },
+    {
+      "id": 12,
+      "name_en": "Pool Maintenance",
+      "name_ar": "صيانة حمام السباحة",
+      "image": "/Images/ServesImages/pool_maintenance1.webp",
+      "description_en": "Our pool maintenance service keeps your swimming pool clean, safe, and ready for use. From water testing and chemical balancing to equipment checks and cleaning, we ensure your pool is in top condition.",
+      "description_ar": "خدمة صيانة حمام السباحة لدينا تحافظ على نظافة وأمان حوض السباحة الخاص بك وجعله جاهزًا للاستخدام. من اختبار المياه وموازنة المواد الكيميائية إلى فحص المعدات والتنظيف، نضمن أن يكون حمام السباحة في أفضل حالاته.",
+      "price": 350,
+      "code": 111012,
+      "category": "Outdoor Services"
+    },
+    {
+      "id": 13,
+      "name_en": "Security Systems",
+      "name_ar": "أنظمة الأمن",
+      "image": "/Images/ServesImages/security1.jpeg",
+      "description_en": "Our security systems service provides professional installation and maintenance of advanced surveillance and alarm systems. Protect your home or business with the latest technologies designed to keep you safe.",
+      "description_ar": "خدمة أنظمة الأمن لدينا تقدم تركيب وصيانة احترافية لأنظمة المراقبة والإنذار المتقدمة. احم منزلك أو عملك بأحدث التقنيات المصممة لتوفير الأمان لك.",
+      "price": 600,
+      "code": 111013,
+      "category": "Technology Services"
+    },
+    {
+      "id": 14,
+      "name_en": "Gutter Cleaning",
+      "name_ar": "تنظيف المزاريب",
+      "image": "/Images/ServesImages/gutter_cleaning1.webp",
+      "description_en": "Prevent water damage and clogging with our professional gutter cleaning service. We remove debris and ensure your gutters are functioning properly, safeguarding your home during rainy seasons.",
+      "description_ar": "امنع أضرار المياه والانسداد مع خدمة تنظيف المزاريب الاحترافية لدينا. نزيل الحطام ونضمن أن تعمل المزاريب بشكل صحيح، مما يحمي منزلك خلال مواسم الأمطار.",
+      "price": 180,
+      "code": 111014,
+      "category": "Home Services"
+    },
+    {
+      "id": 15,
+      "name_en": "Floor Polishing",
+      "name_ar": "تلميع الأرضيات",
+      "image": "/Images/ServesImages/floor_polishing1.jpeg",
+      "description_en": "Our professional floor polishing service restores the natural shine and beauty of your floors. Using specialized equipment and high-quality products, we remove scratches, stains, and dullness, leaving your floors looking brand new.",
+      "description_ar": "خدمة تلميع الأرضيات الاحترافية لدينا تعيد اللمعان الطبيعي وجمال أرضياتك. باستخدام معدات متخصصة ومنتجات عالية الجودة، نقوم بإزالة الخدوش والبقع وفقدان اللمعان، مما يجعل أرضياتك تبدو جديدة تمامًا.",
+      "price": 300,
+      "code": 111015,
+      "category": "Renovation Services"
+    },
+    {
+      "id": 16,
+      "name_en": "Appliance Repair",
+      "name_ar": "إصلاح الأجهزة",
+      "image": "/Images/ServesImages/appliance_repair1.jpeg",
+      "description_en": "Our appliance repair service covers a wide range of household appliances, ensuring they function efficiently. From refrigerators and ovens to washing machines and more, our technicians provide prompt and reliable fixes.",
+      "description_ar": "خدمة إصلاح الأجهزة لدينا تغطي مجموعة واسعة من الأجهزة المنزلية لضمان عملها بكفاءة. من الثلاجات والأفران إلى الغسالات وأكثر من ذلك، يقدم فنيو الفريق إصلاحات سريعة وموثوقة.",
+      "price": 220,
+      "code": 111016,
+      "category": "Technology Services"
+    },
+    {
+      "id": 17,
+      "name_en": "Roof Repairs",
+      "name_ar": "إصلاحات السقف",
+      "image": "/Images/ServesImages/roof_repair1.webp",
+      "description_en": "Our roof repair service ensures the safety and durability of your roof. Whether it’s fixing leaks, replacing shingles, or structural maintenance, our skilled team uses top-quality materials to protect your home.",
+      "description_ar": "خدمة إصلاحات السقف لدينا تضمن أمان ومتانة السقف الخاص بك. سواء كان الأمر يتعلق بإصلاح التسربات أو استبدال البلاط أو الصيانة الهيكلية، فإن فريقنا الماهر يستخدم مواد عالية الجودة لحماية منزلك.",
+      "price": 500,
+      "code": 111017,
+      "category": "Outdoor Services"
+    },
+    {
+      "id": 18,
+      "name_en": "Storage Solutions",
+      "name_ar": "حلول التخزين",
+      "image": "/Images/ServesImages/storage1.jpeg",
+      "description_en": "Our storage solutions service provides secure, affordable, and flexible storage space for your belongings. Whether you’re moving, decluttering, or need extra space, we offer tailored storage options to fit your needs.",
+      "description_ar": "خدمة حلول التخزين لدينا تقدم مساحات تخزين آمنة وميسورة التكلفة ومرنة لممتلكاتك. سواء كنت تنتقل أو تنظف الفوضى أو تحتاج إلى مساحة إضافية، نقدم خيارات تخزين مصممة لتلبية احتياجاتك.",
+      "price": 300,
+      "code": 111018,
+      "category": "Logistics Services"
+    },
+    {
+      "id": 19,
+      "name_en": "Lawn Mowing",
+      "name_ar": "جز العشب",
+      "image": "/Images/ServesImages/lawn_mowing1.jpeg",
+      "description_en": "Our lawn mowing service ensures your garden stays neat, healthy, and well-maintained. Using precision tools and expert care, we trim your grass to the perfect length, enhancing the appearance of your outdoor space.",
+      "description_ar": "خدمة جز العشب لدينا تضمن بقاء حديقتك أنيقة وصحية ومعتنى بها جيدًا. باستخدام أدوات دقيقة ورعاية احترافية، نقوم بقص العشب بطول مثالي، مما يعزز مظهر مساحتك الخارجية.",
+      "price": 100,
+      "code": 111019,
+      "category": "Outdoor Services"
+    },
+    {
+      "id": 20,
+      "name_en": "Tile Cleaning",
+      "name_ar": "تنظيف البلاط",
+      "image": "/Images/ServesImages/tile_cleaning1.jpeg",
+      "description_en": "Our professional tile cleaning service removes dirt, grime, and stubborn stains from your tiles and grout. With advanced cleaning techniques, we restore the shine and cleanliness of your tiled surfaces, ensuring a fresh look.",
+      "description_ar": "خدمة تنظيف البلاط الاحترافية لدينا تزيل الأوساخ والقاذورات والبقع العنيدة من البلاط والجص. باستخدام تقنيات تنظيف متقدمة، نعيد لمعان ونظافة الأسطح المبلطة، مما يضمن مظهرًا جديدًا.",
+      "price": 220,
+      "code": 111020,
+      "category": "Cleaning Services"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name_en": "Leather Wallet",
+      "name_ar": "محفظة جلدية",
+      "image": "/Images/ProductImages/leather_wallet.jpg",
+      "description_en": "A premium leather wallet that holds cards, cash, and coins. With a sleek and minimalist design, this wallet is durable, functional, and perfect for keeping your essentials organized and easily accessible.",
+      "description_ar": "محفظة جلدية فاخرة تحتفظ بالبطاقات والنقود والعملات. مع تصميم أنيق وبسيط، هذه المحفظة متينة وعملية، مما يجعلها مثالية للحفاظ على مستلزماتك منظمة وسهلة الوصول إليها.",
+      "price": 30,
+      "discount": 0,
+      "code": 101008,
+      "quantity": 95,
+      "category": "Accessories"
+    },
+    {
+      "id": 2,
+      "name_en": "Women's Handbag",
+      "name_ar": "حقيبة يد نسائية",
+      "image": "/Images/ProductImages/womens_handbag.webp",
+      "description_en": "A trendy and spacious women's handbag made of high-quality leather, designed for everyday use. With multiple compartments, this handbag offers plenty of space to organize your essentials, while its modern design adds a touch of sophistication to any outfit.",
+      "description_ar": "حقيبة يد نسائية عصرية وواسعة مصنوعة من الجلد عالي الجودة، مصممة للاستخدام اليومي. مع العديد من الأقسام، توفر هذه الحقيبة مساحة كبيرة لتنظيم مستلزماتك، بينما يضيف تصميمها العصري لمسة من الأناقة لأي زي.",
+      "price": 45,
+      "discount": 0,
+      "code": 101002,
+      "quantity": 50,
+      "category": "Accessories"
+    },
+    {
+      "id": 3,
+      "name_en": "Running Shoes",
+      "name_ar": "أحذية رياضية للجري",
+      "image": "/Images/ProductImages/running_shoes.jpg",
+      "description_en": "Durable and comfortable running shoes with great grip for outdoor sports. These shoes are designed with advanced cushioning and a breathable upper, offering optimal support and comfort for runners, whether on a track or on rugged terrain.",
+      "description_ar": "أحذية رياضية متينة ومريحة للجري مع قبضة ممتازة للرياضات الخارجية. تم تصميم هذه الأحذية مع تبطين متقدم وأعلى قابل للتنفس، مما يوفر دعمًا وراحة مثالية للعدائين، سواء على المسار أو على التضاريس الوعرة.",
+      "price": 65,
+      "discount": 0,
+      "code": 101003,
+      "quantity": 75,
+      "category": "Clothing"
+    },
+    {
+      "id": 4,
+      "name_en": "Bluetooth Earbuds",
+      "name_ar": "سماعات أذن بلوتوث",
+      "image": "/Images/ProductImages/bluetooth_earbuds.jpeg",
+      "description_en": "High-quality Bluetooth earbuds with noise-cancellation and 8 hours of battery life. These earbuds provide crystal-clear sound and a secure fit for all-day comfort, whether you're listening to music, taking calls, or exercising.",
+      "description_ar": "سماعات أذن بلوتوث عالية الجودة مع إلغاء الضوضاء و8 ساعات من عمر البطارية. توفر هذه السماعات صوتًا واضحًا للغاية وتناسبًا آمنًا للراحة طوال اليوم، سواء كنت تستمع إلى الموسيقى أو تتلقى المكالمات أو تمارس الرياضة.",
+      "price": 35,
+      "discount": 0,
+      "code": 101004,
+      "quantity": 80,
+      "category": "Accessories"
+    },
+    {
+      "id": 5,
+      "name_en": "Men's Jacket",
+      "name_ar": "معطف رجالي",
+      "image": "/Images/ProductImages/mens_jacket.jpg",
+      "description_en": "A warm and stylish men's jacket perfect for winter wear. This jacket features high-quality insulation to keep you warm during cold weather, along with a sleek and modern design that pairs well with both casual and formal outfits.",
+      "description_ar": "معطف رجالي دافئ وأنيق مثالي للارتداء في الشتاء. يتميز هذا المعطف بالعزل عالي الجودة للحفاظ على دفئك في الطقس البارد، بالإضافة إلى تصميم أنيق وعصري يتناسب مع الملابس غير الرسمية والرسمية على حد سواء.",
+      "price": 75,
+      "discount": 0,
+      "code": 101005,
+      "quantity": 60,
+      "category": "Clothing"
+    },
+    {
+      "id": 6,
+      "name_en": "Women's Sunglasses",
+      "name_ar": "نظارات شمسية نسائية",
+      "image": "/Images/ProductImages/womens_sunglasses.avif",
+      "description_en": "Stylish women's sunglasses that protect your eyes from harmful UV rays while offering a fashionable look. These sunglasses feature UV400 protection and a sleek design, making them a perfect accessory for both casual and chic outfits.",
+      "description_ar": "نظارات شمسية نسائية أنيقة تحمي عينيك من الأشعة فوق البنفسجية الضارة بينما توفر مظهرًا عصريًا. تتميز هذه النظارات بحماية UV400 وتصميم أنيق، مما يجعلها إكسسوارًا مثاليًا للملابس غير الرسمية والأنيقة.",
+      "price": 20,
+      "discount": 0,
+      "code": 101006,
+      "quantity": 120,
+      "category": "Accessories"
+    },
+    {
+      "id": 7,
+      "name_en": "Winter Gloves",
+      "name_ar": "قفازات شتوية",
+      "image": "/Images/ProductImages/winter_gloves.jpg",
+      "description_en": "Warm winter gloves designed to keep your hands comfortable in cold weather. Made with a soft and insulating material, these gloves are perfect for outdoor activities in winter, providing both protection and style.",
+      "description_ar": "قفازات شتوية دافئة مصممة لإبقاء يديك مريحة في الطقس البارد. مصنوعة من مادة ناعمة ومعزولة، هذه القفازات مثالية للأنشطة الخارجية في الشتاء، حيث توفر الحماية والأناقة.",
+      "price": 18,
+      "discount": 0,
+      "code": 101007,
+      "quantity": 150,
+      "category": "Clothing"
+    },
+    {
+      "id": 8,
+      "name_en": "Men's T-shirt",
+      "name_ar": "تي شيرت رجالي",
+      "image": "/Images/ProductImages/mens_tshirt.webp",
+      "description_en": "A comfortable and stylish men's t-shirt made of 100% cotton, designed for everyday wear. This t-shirt is breathable, lightweight, and soft, providing the perfect balance between style and comfort for all-day use.",
+      "description_ar": "تي شيرت رجالي مريح وأنيق مصنوع من القطن بنسبة 100%، مصمم للارتداء اليومي. هذا التي شيرت خفيف الوزن وقابل للتنفس وناعم، مما يوفر التوازن المثالي بين الأناقة والراحة للاستخدام طوال اليوم.",
+      "price": 25,
+      "discount": 0,
+      "code": 101001,
+      "quantity": 100,
+      "category": "Clothing"
+    },
+    {
+      "id": 9,
+      "name_en": "Men's Sneakers",
+      "name_ar": "حذاء رياضي رجالي",
+      "image": "/Images/ProductImages/mens_sneakers.jpg",
+      "description_en": "Comfortable men's sneakers with a modern design, perfect for casual outings. These sneakers are made with durable materials that provide support and flexibility, making them ideal for long walks, sports, or everyday wear.",
+      "description_ar": "حذاء رياضي رجالي مريح بتصميم عصري، مثالي للخرجات غير الرسمية. هذه الأحذية الرياضية مصنوعة من مواد متينة توفر الدعم والمرونة، مما يجعلها مثالية للمشي الطويل أو الرياضة أو الارتداء اليومي.",
+      "price": 55,
+      "discount": 0,
+      "code": 101009,
+      "quantity": 120,
+      "category": "Clothing"
+    },
+    {
+      "id": 10,
+      "name_en": "Tote Bag",
+      "name_ar": "حقيبة توت",
+      "image": "/Images/ProductImages/tote_bag.jpg",
+      "description_en": "A spacious and durable tote bag perfect for shopping or casual trips. Made from high-quality materials, this bag features sturdy handles and ample space to carry all your essentials, making it both practical and stylish.",
+      "description_ar": "حقيبة توت واسعة ومتينة مثالية للتسوق أو الرحلات غير الرسمية. مصنوعة من مواد عالية الجودة، تتميز هذه الحقيبة بمقابض قوية ومساحة واسعة لحمل جميع مستلزماتك، مما يجعلها عملية وأنيقة.",
+      "price": 40,
+      "discount": 0,
+      "code": 101010,
+      "quantity": 200,
+      "category": "Accessories"
+    },
+    {
+      "id": 11,
+      "name_en": "Thermal Jacket",
+      "name_ar": "جاكيت حراري",
+      "image": "/Images/ProductImages/thermal_jacket.webp",
+      "description_en": "A high-performance thermal jacket designed to keep you warm in extreme cold weather. This jacket is made with advanced insulating technology, providing maximum warmth while maintaining comfort and breathability.",
+      "description_ar": "جاكيت حراري عالي الأداء مصمم لإبقائك دافئًا في الطقس البارد للغاية. هذا المعطف مصنوع بتقنية عزل متقدمة، مما يوفر أقصى قدر من الدفء مع الحفاظ على الراحة وقابلية التنفس.",
+      "price": 95,
+      "discount": 0,
+      "code": 101011,
+      "quantity": 30,
+      "category": "Clothing"
+    },
+    {
+      "id": 12,
+      "name_en": "Travel Backpack",
+      "name_ar": "حقيبة ظهر للسفر",
+      "image": "/Images/ProductImages/travel_backpack.webp",
+      "description_en": "A versatile and durable travel backpack with multiple compartments, designed for comfort and organization. It provides ample space for your belongings while keeping everything easily accessible, perfect for travelers looking for efficiency and style.",
+      "description_ar": "حقيبة ظهر متعددة الاستخدامات ومتينة مع العديد من الأقسام، مصممة للراحة والتنظيم. توفر مساحة كافية لمتعلقاتك مع الحفاظ على سهولة الوصول إليها، مثالية للمسافرين الذين يبحثون عن الكفاءة والأناقة.",
+      "price": 50,
+      "discount": 0,
+      "code": 101012,
+      "quantity": 65,
+      "category": "Accessories"
+    },
+    {
+      "id": 13,
+      "name_en": "Yoga Pants",
+      "name_ar": "بنطال يوجا",
+      "image": "/Images/ProductImages/yoga_pants.webp",
+      "description_en": "Comfortable yoga pants made with soft, stretchy fabric to ensure maximum flexibility and comfort during your yoga sessions. These pants provide excellent support and freedom of movement, making them ideal for any fitness activity.",
+      "description_ar": "بنطال يوغا مريح مصنوع من قماش ناعم ومرن لضمان أقصى قدر من المرونة والراحة أثناء جلسات اليوغا. يوفر هذا البنطال دعماً ممتازاً وحرية الحركة، مما يجعله مثالياً لأي نشاط رياضي.",
+      "price": 35,
+      "discount": 0,
+      "code": 101013,
+      "quantity": 90,
+      "category": "Clothing"
+    },
+    {
+      "id": 14,
+      "name_en": "Cotton Socks",
+      "name_ar": "جوارب قطنية",
+      "image": "/Images/ProductImages/cotton_socks.webp",
+      "description_en": "Soft and breathable cotton socks designed for all-day comfort. These socks keep your feet cool and dry, perfect for daily wear or sports activities. The natural fabric ensures durability and long-lasting use.",
+      "description_ar": "جوارب قطنية ناعمة وقابلة للتنفس مصممة للراحة طوال اليوم. تحافظ هذه الجوارب على قدميك باردة وجافة، مثالية للاستخدام اليومي أو الأنشطة الرياضية. يوفر القماش الطبيعي المتانة والاستخدام الطويل.",
+      "price": 12,
+      "discount": 0,
+      "code": 101014,
+      "quantity": 200,
+      "category": "Clothing"
+    },
+    {
+      "id": 15,
+      "name_en": "Fashionable Scarf",
+      "name_ar": "وشاح عصري",
+      "image": "/Images/ProductImages/fashionable_scarf.jpg",
+      "description_en": "This stylish scarf is perfect for adding a fashionable touch to any outfit. Made from soft and warm material, it provides comfort during colder months and can be worn in various styles to match your look.",
+      "description_ar": "هذا الوشاح الأنيق مثالي لإضافة لمسة من الأناقة إلى أي زي. مصنوع من مادة ناعمة ودافئة، يوفر الراحة خلال الأشهر الباردة ويمكن ارتداؤه بطرق متنوعة لتناسب مظهرك.",
+      "price": 25,
+      "discount": 0,
+      "code": 101015,
+      "quantity": 100,
+      "category": "Accessories"
+    },
+    {
+      "id": 16,
+      "name_en": "Flip Flops",
+      "name_ar": "شباشب",
+      "image": "/Images/ProductImages/flip_flops.jpg",
+      "description_en": "Comfortable and lightweight flip-flops that provide a casual and relaxed feel for your feet. Perfect for beach days, poolside lounging, or just walking around, these flip-flops offer both comfort and style.",
+      "description_ar": "شباشب مريحة وخفيفة الوزن توفر شعوراً غير رسمي ومريح لقدميك. مثالية لأيام الشاطئ، الاسترخاء بجانب المسبح، أو مجرد التنزه، تقدم هذه الشباشب الراحة والأناقة معاً.",
+      "price": 15,
+      "discount": 0,
+      "code": 101016,
+      "quantity": 250,
+      "category": "Clothing"
+    },
+    {
+      "id": 17,
+      "name_en": "Wireless Mouse",
+      "name_ar": "ماوس لاسلكي",
+      "image": "/Images/ProductImages/wireless_mouse.webp",
+      "description_en": "A sleek and ergonomic wireless mouse that offers smooth tracking and precision, making it ideal for both work and leisure. With easy connectivity, it provides a clutter-free, comfortable experience.",
+      "description_ar": "ماوس لاسلكي أنيق ومريح يوفر تتبعاً دقيقاً وسلساً، مما يجعله مثالياً للعمل والترفيه. مع الاتصال السهل، يوفر تجربة مريحة وخالية من الفوضى.",
+      "price": 20,
+      "discount": 0,
+      "code": 101017,
+      "quantity": 150,
+      "category": "Accessories"
+    },
+    {
+      "id": 18,
+      "name_en": "Smart Watch",
+      "name_ar": "ساعة ذكية",
+      "image": "/Images/ProductImages/smartwatch.avif",
+      "description_en": "This stylish smartwatch helps you stay connected and track your fitness goals with heart rate monitoring, step tracking, and notifications. It's designed for those who want to stay active and organized.",
+      "description_ar": "تساعدك هذه الساعة الذكية الأنيقة على البقاء متصلاً وتتبع أهداف لياقتك البدنية مع مراقبة ضربات القلب، تتبع الخطوات، والإشعارات. إنها مصممة لأولئك الذين يرغبون في البقاء نشيطين ومنظمين.",
+      "price": 85,
+      "discount": 0,
+      "code": 101018,
+      "quantity": 80,
+      "category": "Accessories"
+    },
+    {
+      "id": 19,
+      "name_en": "Baseball Cap",
+      "name_ar": "قبعة بيسبول",
+      "image": "/Images/ProductImages/baseball_cap.jpg",
+      "description_en": "A classic baseball cap that adds a stylish touch to any casual look. Designed to provide sun protection, it’s perfect for outdoor activities like sports, hiking, or simply enjoying a sunny day.",
+      "description_ar": "قبعة بيسبول كلاسيكية تضيف لمسة من الأناقة إلى أي مظهر غير رسمي. مصممة لتوفير الحماية من الشمس، فهي مثالية للأنشطة الخارجية مثل الرياضة أو التنزه أو مجرد الاستمتاع بيوم مشمس.",
+      "price": 18,
+      "discount": 0,
+      "code": 101019,
+      "quantity": 180,
+      "category": "Accessories"
+    },
+    {
+      "id": 20,
+      "name_en": "Winter Boots",
+      "name_ar": "أحذية شتوية",
+      "image": "/Images/ProductImages/winter_boots.jpg",
+      "description_en": "Durable and insulated winter boots designed to keep your feet warm and dry in snow and rain. With a rugged sole for excellent grip, they are ideal for outdoor winter activities and harsh weather conditions.",
+      "description_ar": "أحذية شتوية متينة ومعزولة مصممة للحفاظ على قدميك دافئتين وجافتين في الثلج والمطر. مع نعل قوي يوفر قبضة ممتازة، فهي مثالية للأنشطة الخارجية في الشتاء والظروف الجوية القاسية.",
+      "price": 80,
+      "discount": 0,
+      "code": 101020,
+      "quantity": 60,
+      "category": "Clothing"
+    }
+  ],
+  "package": [
+    {
+      "id": 1,
+      "name_en": "Basic Package",
+      "name_ar": "الباقة الأساسية",
+      "notes_en": "This package includes basic services for home maintenance.",
+      "notes_ar": "تتضمن هذه الباقة خدمات أساسية للصيانة المنزلية.",
+      "discount": 0,
+      "price_before_discount": 250,
+      "expire_date": "21-11-2025"
+    },
+    {
+      "id": 2,
+      "name_en": "Premium Package",
+      "name_ar": "الباقة المميزة",
+      "notes_en": "This package includes premium services with additional benefits.",
+      "notes_ar": "تتضمن هذه الباقة خدمات مميزة مع مزايا إضافية.",
+      "discount": 0,
+      "price_before_discount": 350,
+      "expire_date": "21-11-2025"
+    },
+    {
+      "id": 3,
+      "name_en": "Deluxe Package",
+      "name_ar": "الباقة الفاخرة",
+      "notes_en": "The deluxe package offers exclusive services with extended coverage.",
+      "notes_ar": "تقدم الباقة الفاخرة خدمات حصرية مع تغطية ممتدة.",
+      "discount": 0,
+      "price_before_discount": 500,
+      "expire_date": "21-11-2025"
+    }
+  ],
+  "Days": [
+    {
+      "id": 1,
+      "name_en": "Saturday ",
+      "name_ar": "السبت"
+    },
+    {
+      "id": 2,
+      "name_en": "Sunday",
+      "name_ar": "الاحد"
+    },
+    {
+      "id": 3,
+      "name_en": "Monday",
+      "name_ar": "الاثنين"
+    },
+    {
+      "id": 4,
+      "name_en": "Tuesday",
+      "name_ar": "الثلاثاء"
+    },
+    {
+      "id": 5,
+      "name_en": "Wednesday",
+      "name_ar": "الاربع"
+    },
+    {
+      "id": 6,
+      "name_en": "Thursday",
+      "name_ar": "الخميس"
+    },
+    {
+      "id": 7,
+      "name_en": "Friday",
+      "name_ar": "الجمعه"
+    }
+  ],
+  "Delivery_Cost": [20],
+  "Shipping_Cost": [10],
+  "Discount": [
+    {
+      "id": 1,
+      "Discount_coupon": "3bdoo",
+      "Discount_rate": 10
+    }
+  ]
+}

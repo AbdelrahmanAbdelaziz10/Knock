@@ -1,0 +1,179 @@
+.main_book{
+    background-color: #e9e8e8 !important;
+    overflow-y: hidden ;
+}
+.booking_row_main{
+    gap: 1.5rem;
+}
+.serves_col{
+    height: auto !important ;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scrollbar-color: #008080a4 white !important;
+}
+.main_col{
+    border-radius: 5px;
+    background-color: #fff;
+}
+/* Booking Head */
+.main_book_head {
+    margin: .5rem 0;
+}
+.main_book_head .arrow_icon {
+    color: #008080;
+    font-size: 1.3rem;
+    margin: 0 .5rem;
+    margin-bottom: .8rem;
+    margin-top: .5rem;
+
+}
+.main_book_head span {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: .8rem;
+
+}
+.main_book_head h6 {
+    color: #000;
+    font-size: 21px;
+}
+/* Serves Card */
+.main_book .book_card{
+    border: none !important;
+    border-bottom: 1px solid #dee2e6 !important;
+    border-radius: 0;
+    padding: 1rem 0;
+}
+.book_card .serv_text h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #008080;
+}
+.book_card .serv_text p{
+    font-size: 19px !important;
+}
+.book_card .serv_text span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.book_card .serv_text button{
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 24px;
+}
+.book_card .serv_text button:hover{
+    opacity: .8;
+}
+.ltr .book_card .serv_text button{
+    margin-left: 18rem;
+}
+.rtl .book_card .serv_text button{
+    margin-right: 18rem;
+}
+.main_book .btn_next{
+    background-color: #008080;
+    color: #fff ;
+    border-radius: 24px;
+    margin:1rem  2rem 0 2rem;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.main_book .btn_next:hover{
+    border: 2px solid #008080;
+    color: #008080 !important;
+    transition: all .5s;
+}
+/* Booking Details */
+.booking_details {
+    border-radius: 5px;
+    padding: 1rem 2rem !important;
+    height: auto;
+    background-color: #fff;
+    height: 45vh !important;
+}
+
+.booking_details h4 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.booking_details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.booking_details ul li {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.booking_details h6 {
+    color: #008080;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.booking_details .serves_name,
+.booking_details p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #000;
+    padding: .2rem !important;
+}
+
+.ltr .booking_details ul li span {
+    padding-right: 1rem;
+}
+
+.rtl .booking_details ul li span {
+    padding-left: 1rem;
+}
+.booking_details .serves_name{
+    margin: 0 !important;
+}
+/* Booking Details */
+.total{
+    height: auto;
+    margin-top: 2rem !important;
+}
+.booking_row_main h2{
+    color: #008080;
+    font-size: 22px;
+    font-weight: 500;
+}
+.book_card .quantity_num{
+    color: #008080;
+}
+.price_total{
+    position: relative;
+}
+.price_total h6{
+    padding-top: 1rem;
+}
+.price_total p{
+    padding-top: 1rem !important;
+
+}
+.price_total::after{
+    content: "";
+    width: 100%;
+    height: .2vh;
+    position: absolute;
+    background-color: #000000af;
+}
+.btn_cancelled{
+    border: 2px solid red !important;
+    color: red !important;
+    font-size: 19px !important;
+    font-weight: 500 !important;
+    border-radius: 24px !important;
+    background-color: rgba(255, 0, 0, 0.116) !important;
+}

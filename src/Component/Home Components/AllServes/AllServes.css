@@ -1,0 +1,265 @@
+/* Start In All Serves Section Style */
+.allservice {
+    padding: 2rem 0;
+}
+
+.allservice .link span {
+    color: #008080;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.allservice .link:hover span {
+    font-size: 19px;
+    transition: all .5s;
+
+}
+
+.ltr .allservice .see_more.link {
+    margin-left: 5rem;
+}
+
+.rtl .allservice .see_more.link {
+    margin-right: 2rem;
+}
+
+.servies_image img {
+    height: 100% !important;
+    width: 75% !important;
+}
+
+.servies_image:hover img {
+    transform: scale(1.1);
+    transition: all .5s;
+    margin-bottom: 1rem;
+}
+
+.servies .link p {
+    color: #008080 !important;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.servies .servies_image:hover .link p {
+    transition: all .5s;
+    font-size: 20px;
+}
+
+.card.one_Product {
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    /* Ensures the card fills available space */
+    max-height: 60vh;
+    /* Use this without `!important` to allow better control */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    /* Adds spacing between cards */
+}
+
+.card.one_Product:hover {
+    margin-top: -.5rem;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.8);
+    /* Highlighted effect */
+}
+
+.card.one_Product .card_image_product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88%;
+    width: 100%;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    /* Dynamically sets height for the image section */
+    overflow: hidden;
+}
+
+.card.one_Product .card_image_product img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* Ensures the whole image is visible without clipping */
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.card.one_Product .card_text_product {
+    padding: .2rem 1rem;
+    padding-bottom: .5rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Align text at the top for consistency */
+    flex-grow: 1;
+    /* Ensures that text content fills the remaining space */
+}
+
+.card.one_Product .card_text_product p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* Increased line-height for readability */
+    letter-spacing: 0.5px;
+    color: #008080;
+    margin: 0.5rem 0;
+    /* Adds spacing between paragraphs */
+    word-wrap: break-word;
+    /* Prevents long words from breaking out of the container */
+}
+
+
+/* .card.one_Product .card_text_product p:hover{ */
+/* color: #000; */
+/* transition: all .5s; */
+/* } */
+.card.one_Product .card_text_product h6 {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+}
+
+.card.one_Product .card_text_product h6 span {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red !important;
+}
+
+.ltr .card.one_Product .card_text_product h6 span {
+    padding-left: 2rem;
+}
+
+.rtl .card.one_Product .card_text_product h6 span {
+    padding-right: 2rem;
+}
+
+.card.one_Product .card_text_product .btn-deteils {
+    color: #fff;
+    width: 75%;
+    padding: 9px 20px;
+    margin-bottom: .5rem;
+    border-radius: 8px;
+    background-color: #008080;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.card.one_Product .card_text_product .buy_product {
+    color: #008080;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.card.one_Product .card_text_product .buy_product:hover {
+    color: red;
+    opacity: .8;
+    transition: all .5s;
+}
+
+.ltr .card.one_Product .card_text_product .buy_product {
+    margin-left: 4rem;
+}
+
+/* .ltr .card.one_Product .card_text_product .btn-deteils:last-child{ */
+/* margin-left: 1rem; */
+/* } */
+.card.one_Product .card_text_product .btn-deteils:hover {
+    opacity: .7;
+}
+
+.one_Product.log_out_card {
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    /* Ensures the card fills available space */
+    max-height: 60vh;
+    /* Use this without `!important` to allow better control */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.one_Product .decincrease,
+.one_Product .increase {
+    background-color: #008080;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: .2rem .5rem;
+    color: #fff;
+    margin: 0 .5rem;
+}
+
+.one_Product .decincrease:hover,
+.one_Product .increase:hover {
+    opacity: .8;
+    background-color: #008080;
+    color: #fff;
+}
+
+.one_Product .delete {
+    color: red;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.shopIcon {
+    color: #008080;
+    font-size: 1.8rem;
+    margin-top: .9rem;
+}
+
+.shopIcon:hover {
+    transition: all .5s;
+    color: red;
+    cursor: pointer;
+}
+
+/* End In All Serves Section Style */
+
+
+
+@media (min-width: 820px) and (max-width: 992px) {
+    .all_product .main_product .card {
+        margin: 1rem 0rem;
+        min-height: 30.5vh;
+        width: 100%;
+    }
+
+    .card.one_Product .card_text_product .btn-deteils {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 819px) {
+    .all_product .main_product .card {
+        margin: 1rem 0rem;
+        min-height: 35.5vh;
+        width: 100%;
+    }
+
+    .card.one_Product .card_text_product .btn-deteils {
+        width: 90%;
+    }
+}

@@ -1,0 +1,24 @@
+.rtl{
+    direction: rtl;
+}
+/* all rtl header style */
+.rtl .header .header_text .header_form input {
+    padding-right: 2rem;
+}
+.rtl .header .header_text .header_form .fa-location-dot {
+    right: .7rem;
+}
+/* all serves rtl style*/
+.rtl .allservice .link span{
+    padding-right: 5rem;
+}
+/* footer rtl style */
+.rtl .footer .footer_serves {
+    margin-left: 1rem;
+}
+.rtl .footer .social_icon {
+    margin-right: 5rem;
+}
+.rtl .footer .footer_list {
+    margin-right: 1.5rem;
+}

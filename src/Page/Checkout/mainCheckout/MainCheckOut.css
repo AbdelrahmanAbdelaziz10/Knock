@@ -1,0 +1,119 @@
+.payment h4 {
+    color: #008080;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.payment .create_pay {
+    background-color: #00808023;
+    border: 2px solid #008080;
+    padding: .4rem 1rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.ltr .payment .create_pay {
+    margin-left: 1.7rem;
+}
+
+.rtl .payment .create_pay {
+    margin-right: 2rem;
+}
+
+.payment .create_pay Row {
+    width: 100%;
+}
+
+.payment .credit {
+    padding-top: .5rem;
+}
+
+.payment .credit .create {
+    font-size: 1.4rem;
+}
+
+.ltr .payment .credit .create {
+    padding-right: .3rem;
+}
+
+.rtl .payment .credit .create {
+    padding-left: .3rem;
+}
+
+.payment .visa {
+    color: #1434cb;
+    font-size: 2.5rem;
+}
+
+.ltr .payment .visa {
+    margin-left: 9.5rem;
+}
+
+.rtl .payment .visa {
+    margin-right: 9.5rem;
+}
+
+.payment .form-control {
+    border-radius: 0 !important;
+    border: 0 !important;
+    border-bottom: 1px solid #008080 !important;
+}
+
+.payment .nots {
+    width: 80%;
+}
+
+.ltr .payment .nots {
+    margin-left: 1rem;
+}
+
+.rtl .payment .nots {
+    margin-right: 1rem;
+}
+
+.payment .nots .icon {
+    margin: 0 .7rem;
+}
+
+.payment_title .change_card {
+    color: #008080 !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.payment_title .change_card:hover {
+    color: #000 !important;
+    transition: all .5s !important;
+    margin-top: -.5rem !important;
+}
+
+.payment_title {
+    justify-content: space-between;
+}
+
+.main_book .btn_coupon {
+    background-color: #008080;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: .5rem;
+}
+
+.main_book .btn_coupon:hover {
+    background-color: #008080a1;
+    color: #fff;
+}
+
+.btn_payment {
+    background-color: #008080 !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    border-radius: 10px !important;
+    width: 90% !important;
+    box-shadow: 2px 2px 10px #00000085;
+}

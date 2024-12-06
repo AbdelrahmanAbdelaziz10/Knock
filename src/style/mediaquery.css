@@ -1,0 +1,1863 @@
+/* Medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .main_product_details .time_date .time_input .input_time {
+        width: 80%;
+        height: 3.5vh;
+    }
+
+    .ltr .main_product_details .time_date .time_input .input_time {
+        margin-left: 1rem;
+    }
+
+    .rtl .main_product_details .time_date .time_input .input_time {
+        margin-right: 1rem;
+    }
+
+    .time_date .btn {
+        font-size: 14px;
+    }
+
+    /* Styles for medium devices */
+    /* Start in home page responsive */
+    /* 1-NavBar */
+    .navbar {
+        height: 8vh;
+    }
+
+    .navbar-brand {
+        width: 16% !important;
+    }
+
+    .dropmenu {
+        top: 4.5rem !important;
+        width: 35vw !important;
+        right: 1rem;
+    }
+
+    /* 2-Header Home */
+
+    .header_swiper .swiper-slide {
+        height: 40vh !important;
+    }
+
+    .header_swiper .swiper .slide_title {
+        top: 12rem;
+    }
+
+
+    .header {
+        height: 50vh;
+        background-position: 0 0 60px 0;
+    }
+
+    .header .header_text h2 {
+        font-size: 1.7rem;
+    }
+
+    /* 2-All Serves- Serves Row -one Product */
+    .card.one_Product {
+        width: 90%;
+        min-height: 37.5vh;
+    }
+
+    .search_input {
+        height: 4.5vh;
+    }
+
+    .main_order .order_title .btn_pending {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .card.one_Product {
+        margin: 1rem 1rem;
+    }
+
+    .card.one_Product .card_text_product p {
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .title h4 {
+        font-size: 22px;
+
+    }
+
+    .title p {
+        font-size: 18px;
+    }
+
+    .card.one_Product .card_text_product h6,
+    .card.one_Product .card_text_product h6 span {
+        font-size: 20px;
+    }
+
+    .rtl .card.one_Product {
+        margin-right: 2rem;
+    }
+
+    .btn.visa_img {
+        height: 10vh !important;
+    }
+
+    .card.one_Product.log_out_card {
+        min-height: 30.5vh;
+    }
+
+    /* 3- Sponsor */
+    .ltr .sponsor_text {
+        margin-right: -1rem;
+    }
+
+    /* 4-About Say Home */
+    .aboutsay .mySwiper {
+        height: auto !important;
+        width: 80vw;
+    }
+
+    /* 5- Footer */
+
+    .ltr .footer .social_icon {
+        margin-left: 3rem !important;
+    }
+
+    .rtl .footer .social_icon {
+        margin-right: 0rem !important;
+    }
+
+    .ltr .footer .footer_list {
+        margin-left: 1rem !important;
+    }
+
+    .rtl .footer .footer_list {
+        margin-right: 1rem;
+    }
+
+    /* Start in All Product page responsive */
+    /* 1-Header of product */
+    .head_serves {
+        height: 25vh;
+        position: relative;
+    }
+
+    .head_serves .head_text h2 {
+        color: #fff !important;
+        font-size: 2.6rem;
+        margin-top: -2rem;
+    }
+
+    .head_serves .head_text span {
+        color: #fff;
+        font-size: 23px;
+        font-weight: 500;
+    }
+
+    .head_serves .head_text {
+        position: absolute;
+        top: 7rem;
+        left: 41%;
+        z-index: 11;
+    }
+
+    /* 2-Main Product */
+    .main_product .servies .one_Product {
+        height: 30vh;
+    }
+
+    .main_product .servies .card.one_Product .card_text_product h6 {
+        font-size: 17px;
+        padding-left: 0rem !important;
+    }
+
+    .main_product .servies .card.one_Product .card_text_product h6 span {
+        padding-left: 2rem;
+    }
+
+    .ltr .head_serves .head_text .home_icon {
+        margin-left: 0rem;
+    }
+
+    .rtl .head_serves .head_text .home_icon {
+        margin-right: 0rem;
+    }
+
+    .ltr .card.one_Product .card_text_product h6 span {
+        padding-left: .7rem;
+    }
+
+    .rtl .card.one_Product .card_text_product h6 span {
+        padding-right: .6rem;
+    }
+
+    /* Start in Serves Details page responsive */
+    /* 1-main Serves Details - product Head */
+    .main_product_details .product_head {
+        height: 25vh;
+    }
+
+    .main_product_details .mySwiper {
+        height: 16vh;
+    }
+
+    /* 1-main Serves Details - Body Details  */
+    .body_details h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .body_details p, .body_details li {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .body_details .stock h4 span {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .ltr .time_date h5 {
+        margin-left: 0rem;
+    }
+
+    .body_details .time_input .input_time {
+        border: 2px solid #008080d2;
+        border-radius: 5px;
+        padding: 0 .5rem;
+        height: 4vh;
+        width: 80%;
+    }
+
+    .form-control {
+        border: 2px solid #008080d2 !important;
+        border-right: 0px !important;
+        padding: 0 .5rem;
+        height: 4vh !important;
+    }
+
+    .input-group-append {
+        height: 4vh !important;
+    }
+
+    .ltr .total_price {
+        margin-left: 1.5rem;
+    }
+
+    .ltr .time_date .btn-Add {
+        margin-left: 10%;
+    }
+
+    .ltr .btn-book {
+        margin-left: 0rem;
+    }
+
+    .rtl .total_price {
+        margin-right: 1.5rem;
+    }
+
+    .rtl .time_date .btn-Add {
+        margin-right: 10%;
+    }
+
+    .rtl .btn-book {
+        margin-right: 0rem;
+    }
+
+    .rtl .btn-book {
+        margin-right: 0rem;
+    }
+
+    .input-group-text {
+        height: 4vh !important;
+    }
+
+    /* Start in Booking Step 1 page responsive */
+    /* 1-main Serves Details - product Head */
+    .main_book .booking_container {
+        max-width: 850px;
+    }
+
+    .ltr .main_book .booking_container {
+        margin-left: .5rem;
+
+    }
+
+    .rtl .main_book .booking_container {
+        margin-right: .5rem;
+
+    }
+
+    .booking_row_main {
+        gap: 1rem;
+        width: 105vw;
+    }
+
+    .row_booking {
+        width: 27% !important;
+    }
+
+    .serves_col {
+        height: auto !important;
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        scrollbar-color: #008080a4 white !important;
+    }
+
+    /* 1-main Serves Details - serves Card */
+    .book_card .serv_text h6 {
+        font-size: 16px;
+    }
+
+    .book_card .serv_text p {
+        font-size: 14px !important;
+        font-weight: 400;
+        margin-bottom: .2rem;
+    }
+
+    .book_card .serv_text span {
+        font-size: 15px;
+    }
+
+    .ltr .book_card .serv_text button {
+        margin-left: 10rem;
+    }
+
+    .rtl .book_card .serv_text button {
+        margin-right: 10rem;
+    }
+
+    .main_book .btn_next {
+        margin: 1rem 1rem 0 1.4rem;
+    }
+
+    /* 1-main Serves Details - Booking Details  */
+    .booking_details {
+        padding: 1rem 1rem !important;
+        height: 30vh !important;
+    }
+
+    .booking_details h4 {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .booking_details h6 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .booking_details p {
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 1rem !important;
+    }
+
+    .booking_details .serves_name {
+        margin: 0 !important;
+    }
+
+    /* Booking Details */
+    .total {
+        min-height: 25vh !important;
+        margin-top: 2rem !important;
+    }
+
+    .price_total::after {
+        content: "";
+        width: 100%;
+        height: .1vh;
+        position: absolute;
+        background-color: #000000af;
+    }
+
+    /* Start in Booking Step 2 page responsive */
+    /* 1- booking step 2 - main booking*/
+    .main_book {
+        overflow-x: hidden;
+    }
+
+    /* 1- booking step 2 - DateTime*/
+    .date-and-time {
+        overflow: hidden !important;
+    }
+
+    .date_time h5 {
+        font-size: 19px;
+    }
+
+    .date_time .delivery_date h5 {
+        font-size: 16px;
+    }
+
+    .time_input .input_time {
+        height: 4vh;
+    }
+
+    .massage {
+        height: 15vh;
+        width: 110%;
+    }
+
+    /* Start in Booking Step 4 page responsive */
+    /* 1-main Serves Details - product Head */
+    .ltr .payment .visa {
+        margin-left: 8.5rem !important;
+    }
+
+    .rtl .payment .visa {
+        margin-right: 8.5rem !important;
+    }
+
+    /* Start in Log In page responsive */
+    .login .login_main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ltr .login .login_main .form .form-control {
+        border-right: 2px solid #008080 !important;
+    }
+
+    .rtl .login .login_main .form .form-control {
+        border-left: 2px solid #008080 !important;
+    }
+
+    .login .login_main .form .form-check-label {
+        font-size: 15px;
+    }
+
+    /* Start in Sing Up page responsive */
+    .form .form_head {
+        margin-bottom: .2rem !important;
+    }
+
+    .singup .form_head img {
+        width: 75%;
+    }
+
+    .form .form-control,
+    .form .form-select {
+        height: auto !important;
+    }
+
+    /* Start in Verify page responsive */
+    .verify .form .form_head {
+        width: 90% !important;
+    }
+
+    .form .form_head h4 {
+        font-size: 19px;
+    }
+
+    /* Start in Phone Number page responsive */
+    /* Phone Number */
+    .phone_login .form {
+        position: absolute;
+        z-index: 1111111;
+        top: 10rem;
+        left: 9rem;
+
+    }
+
+    .phone_login .form .form-select {
+        width: 30% !important;
+    }
+
+    /* Start in Contact page responsive */
+    .contact_main .form_contact .massage {
+        width: 100%;
+    }
+
+    .rtl .contact_main .form_contact .massage {
+        padding-right: 1rem;
+        padding-top: .6rem;
+    }
+
+    /* Start in Credit Card page responsive */
+    .main_card h5 {
+        padding-bottom: 1rem;
+    }
+
+    .ltr .main_card h5 {
+        margin-left: 2rem;
+    }
+
+    .rtl .main_card h5 {
+        margin-right: 2rem;
+    }
+
+    .day_booking {
+        margin: 0 0px 10px 0 !important;
+        padding: 0 !important;
+    }
+
+    .date_day {
+        margin: 0 !important;
+    }
+
+    .Why-Us .card {
+        height: 30vh;
+        margin-bottom: 1.4rem;
+    }
+
+    .ltr .footer .footer_list {
+        margin-left: 0rem !important;
+    }
+
+    .ltr .allservice .see_more.link {
+        margin-left: 2rem !important;
+    }
+
+    .rtl .allservice .see_more.link {
+        margin-right: 2rem !important;
+    }
+
+    .ltr .navbar .form .number {
+        right: 33.5% !important;
+        top: 1.1rem;
+    }
+
+    .rtl .navbar .form .number {
+        right: 34.5% !important;
+        top: 1.1rem;
+    }
+
+    /* Style For Profile Page */
+    .profile .form .form_head {
+        width: 65%;
+        margin-top: 0rem !important;
+    }
+
+    /* style for Policy Page */
+    .policy_row {
+        justify-content: start;
+    }
+
+    .main_terms h2 {
+        font-size: 1.9rem;
+        font-weight: 500;
+    }
+
+    .contact_main h2 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    /* Style for Wallet Page */
+    .main_credit .address_card {
+        margin: 2rem 0;
+    }
+
+    /* style for Cart Page Style */
+    .cart_page .main_book .booking_details h4 {
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .book_card .serv_text h6 {
+        font-size: 18px;
+    }
+
+    .book_card .serv_text span {
+        font-size: 18px;
+        /* color: #008080; */
+        font-weight: 500;
+    }
+
+    .booking_row_main {
+        margin: 0;
+    }
+
+    .card_details .details p {
+        font-weight: 500;
+        font-size: 1rem;
+        color: #000000c9;
+    }
+}
+
+
+
+/* Small devices (phones) */
+@media (max-width: 576px) {
+    .main_product_details .card_details .details .product_name {
+        margin-top: 1rem;
+    }
+
+    .main_product_details .time_date .time_input .input_time {
+        width: 80%;
+        height: 5vh;
+    }
+
+    .ltr .main_product_details .time_date .time_input .input_time {
+        margin-left: .5rem;
+    }
+
+    .rtl .main_product_details .time_date .time_input .input_time {
+        margin-right: .5rem;
+    }
+
+    .time_date .btn {
+        font-size: 14px;
+        margin-bottom: .5rem !important;
+    }
+
+    /* Styles for small devices */
+
+    .order_details p {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    }
+
+    .serves_names {
+        width: 25% !important;
+    }
+
+    .serves_name {
+        width: 70% !important;
+    }
+
+    .main_order .date p {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        color: #000;
+    }
+
+    .btn.visa_img {
+        height: 10vh !important;
+    }
+
+    /* Start in home page responsive */
+    /* 1-NavBar */
+    .navbar {
+        height: 8vh;
+    }
+
+    .navbar-brand {
+        width: 20% !important;
+    }
+
+    .dropmenu {
+        top: 4rem !important;
+        right: .6rem;
+        width: 65vw !important;
+        z-index: 1111;
+    }
+
+    /* 2-Header Home */
+    .header_swiper .swiper-slide {
+        height: 30vh !important;
+        padding: 1rem;
+    }
+
+    .header_swiper .swiper .slide_title {
+        top: 7rem;
+        left: 3rem;
+    }
+
+    .header_swiper .swiper .slide_title h1 {
+        font-size: 19px;
+    }
+
+    .header {
+        height: 50vh;
+    }
+
+    .header .header_text h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: .5rem;
+        font-weight: 600;
+    }
+
+    .header .header_text .header_form {
+        width: 95%;
+    }
+
+    .header input {
+        margin-top: -1rem;
+    }
+
+
+    /* 2-All Serves- Serves Row -one Product */
+    .card.one_Product {
+        width: 84%;
+        height: 26vh;
+    }
+
+
+    .head h4 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .ltr .allservice .link span {
+        padding-left: 0rem;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .rtl .allservice .link span {
+        padding-right: 0rem;
+        font-size: 15px;
+    }
+
+    .card.one_Product {
+        width: 98%;
+    }
+
+    .rtl .card.one_Product {
+        margin-right: .3rem;
+    }
+
+    .servies_image p {
+        font-size: 16px !important;
+    }
+
+    .card.one_Product .card_text_product {
+        padding: 1rem .5rem;
+    }
+
+    .one_Product {
+        height: 30vh !important;
+    }
+
+    .one_Product .card_image_product {
+        height: 50% !important;
+    }
+
+    .one_Product .card_text_product p {
+        font-size: 19px !important;
+    }
+
+    .one_Product .card_text_product h6 {
+        font-size: 18px !important;
+    }
+
+    .one_Product .card_text_product h6 span {
+        font-size: 15px !important;
+        padding-left: 1.3rem !important;
+    }
+
+    /* 4- Footer */
+    .ltr .footer .social_icon {
+        margin: 1rem 0;
+        margin-left: 4rem !important;
+    }
+
+    .ltr .footer .footer_img {
+        margin-left: 1rem !important;
+    }
+
+    .rtl .footer .footer_img {
+        margin-right: 1rem;
+    }
+
+    .ltr .footer .footer_text {
+        margin-left: 1rem !important;
+    }
+
+    .rtl .footer .footer_text {
+        margin-right: 1rem;
+    }
+
+    .ltr .footer .footer_list {
+        margin-left: 1rem !important;
+    }
+
+    .rtl .footer .footer_list {
+        margin-right: 1rem;
+    }
+
+    .ltr .footer .footer_contact {
+        margin-left: 1rem !important;
+    }
+
+    .rtl .footer .footer_contact {
+        margin-right: 1rem;
+    }
+
+
+    .header .header_text p {
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+
+    .servies {
+        justify-content: center;
+    }
+
+    .servies_card .card_head p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .aboutsay .swiper .swiper-slide p {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        margin-bottom: 4rem;
+    }
+
+    .card.one_Product .card_text_product {
+        padding: .4rem .8rem;
+    }
+
+    .card.one_Product .card_text_product .details_btn {
+        display: flex;
+        justify-content: end !important;
+    }
+
+    .Justlife_protects .sponsor_text {
+        margin-right: 0rem;
+    }
+
+    .Justlife_protects .sponser {
+        display: none;
+    }
+
+    .download .text {
+        margin: 2rem 0;
+    }
+
+    .download .text p {
+        margin: 1rem 0;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    /* Start in All Product page responsive */
+    /* 1-Header of product */
+    .head_serves {
+        height: 20vh;
+        position: relative;
+    }
+
+    .head_serves .head_text h2 {
+        color: #fff !important;
+        font-size: 1.4rem;
+        margin-top: -2rem;
+        margin-bottom: 0;
+    }
+
+    .head_serves .head_text span {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .head_serves .head_text {
+        position: absolute;
+        top: 5.5rem;
+        left: 38%;
+        z-index: 11;
+    }
+
+    .ltr .head_serves .head_text .home_icon {
+        margin-left: 0rem;
+    }
+
+    .rtl .head_serves .head_text .home_icon {
+        margin-right: 0rem;
+    }
+
+    .rtl .card.one_Product .card_text_product h6 span {
+        padding-right: 2rem;
+    }
+
+    .details_row,
+    .nots_row {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .ltr .card_details .stock .sku {
+        margin-left: 1.5rem;
+    }
+
+    .rtl .card_details .stock .sku {
+        margin-right: 1.5rem;
+    }
+
+    .details_row .product_name {
+        font-size: 17px !important;
+    }
+
+    .details_row .details p {
+        font-size: 14px !important;
+    }
+
+    .details_row .stock h4 {
+        font-size: 16px !important;
+    }
+
+    .nots_add p {
+        margin-bottom: 0 !important;
+    }
+
+    /* 2-Main Product */
+
+    /* Start in all Serves page responsive */
+    /* 1-main Serves Details - product Head */
+    .head_serves .head_text h2 {
+        color: #fff !important;
+        font-size: 1.4rem;
+        margin-top: -2rem;
+        margin-bottom: 0;
+    }
+
+    /* Start in Serves Details page responsive */
+    /* 1-main Serves Details - product Head */
+    .main_product_details .product_head {
+        height: 25vh;
+        margin-bottom: 1rem;
+    }
+
+    /* 1-main Serves Details - Body Details  */
+
+    .product_head span, .product_head .page1 {
+        font-size: 14px;
+    }
+
+    .body_details .stock h4 span {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .ltr .time_date h5 {
+        margin-left: 0rem;
+    }
+
+    .body_details .time_input .input_time {
+        border: 2px solid #008080d2;
+        border-radius: 5px;
+        padding: 0 .5rem;
+        height: 5.5vh;
+        width: 80%;
+    }
+
+    .delivery_date .form-control {
+        border: 2px solid #008080d2 !important;
+        padding: 0 .5rem;
+        height: 5.5vh !important;
+        margin-bottom: 1rem;
+        width: 63vw !important;
+    }
+
+    .ltr .delivery_date .form-control {
+        border-right: 0px !important;
+    }
+
+    .rtl .delivery_date .form-control {
+        border-left: 0px !important;
+    }
+
+    .input-group-append {
+        height: 4vh !important;
+    }
+
+    .total_price {
+        font-size: 16px;
+    }
+
+    .ltr .total_price {
+        margin-left: 1.5rem;
+    }
+
+    /* .ltr .time_date .btn-Add { */
+    /* margin-left: 10%; */
+    /* } */
+    .ltr .time_date .btn-Add {
+        margin-left: 10%;
+    }
+
+    .ltr .btn-book {
+        margin-left: 0rem;
+    }
+
+    .rtl .total_price {
+        margin-right: 1.5rem;
+    }
+
+    /* .rtl .time_date .btn-Add { */
+    /* margin-right: 10%; */
+    /* } */
+    /* .rtl .time_date .btn-Add { */
+    /* margin-right: 16%; */
+    /* } */
+
+    .rtl .btn-book {
+        margin-right: 0rem;
+    }
+
+    .rtl .btn-book {
+        margin-right: 0rem;
+    }
+
+    .input-group-text {
+        height: 5.5vh !important;
+    }
+
+    .total_price {
+        padding: 6px 0px;
+        margin: 0 !important;
+    }
+
+    .btn-Add {
+        width: 80%;
+    }
+
+    .nots .icon {
+        font-size: 1.9rem;
+    }
+
+    .nots p {
+        font-weight: 500;
+    }
+
+    .nots .btn-details {
+        color: #008080;
+        font-weight: 500;
+        font-size: 16px;
+        margin: 0 .4rem;
+        margin-top: 2.5rem;
+        cursor: pointer;
+    }
+
+    .ltr .nots .icon {
+        margin-right: .5rem;
+    }
+
+    .rtl .nots .icon {
+        margin-left: .5rem;
+    }
+
+    .profile .form_head {
+        width: 80% !important;
+    }
+
+    .profile .form_head h4 {
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+    .main_address .address_card h4 {
+        font-size: 17px;
+    }
+
+    /* Start in Booking Step 1 page responsive */
+    /* 1-main Serves Details - product Head */
+    .booking_container {
+        margin: 1rem !important;
+    }
+
+    .booking_row_main {
+        gap: 1rem;
+        width: 94vw;
+    }
+
+    .row_booking {
+        width: 27% !important;
+    }
+
+    .serves_col {
+        height: 40vh !important;
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        scrollbar-color: #008080a4 white !important;
+    }
+
+    .card.one_Product .card_text_product h6 {
+        margin-bottom: .5rem;
+    }
+
+    .card.one_Product {
+        height: auto !important;
+        margin-bottom: 2rem;
+    }
+
+    /* 1-main Serves Details - serves Card */
+    .book_card .serv_text h6 {
+        font-size: 17px;
+    }
+
+    .book_card .serv_text p {
+        font-size: 14px;
+        margin-bottom: .2rem;
+    }
+
+    .book_card .serv_text span {
+        font-size: 15px;
+    }
+
+    .book_card .serv_text button {
+        padding: 4px 20px;
+    }
+
+    .ltr .book_card .serv_text button {
+        margin-left: 7rem;
+    }
+
+    .rtl .book_card .serv_text button {
+        margin-right: 10rem;
+    }
+
+    .main_book .btn_next {
+        margin: 1rem 1rem 0 1.4rem;
+    }
+
+    /* 1-main Serves Details - Booking Details  */
+    .booking_details {
+        padding: 1rem 1.2rem !important;
+        height: auto;
+    }
+
+    .booking_details h4 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .booking_details h6 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .booking_details p {
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 1rem !important;
+    }
+
+    .booking_details .serves_name {
+        margin: 0 !important;
+    }
+
+    /* Booking Details */
+    .total {
+        margin-top: 2rem !important;
+    }
+
+    .price_total::after {
+        height: .1vh;
+    }
+
+    /* Start in Booking Step 2 page responsive */
+    /* 1- booking step 2 - main booking*/
+
+    /* 1- booking step 2 - DateTime*/
+    .date_time h5 {
+        font-size: 17px;
+    }
+
+    .date_time .delivery_date h5 {
+        font-size: 15px;
+    }
+
+    .time_input .input_time {
+        height: 5.5vh;
+    }
+
+    .massage {
+        height: 15vh;
+        width: 110%;
+    }
+
+    .booking_container {
+        overflow-y: hidden !important;
+    }
+
+    /* Start in Log In page responsive */
+    .login {
+        padding-top: 6rem;
+    }
+
+    .ltr .login .login_main .form .form-control {
+        border-right: 2px solid #008080 !important;
+    }
+
+    .rtl .login .login_main .form .form-control {
+        border-left: 2px solid #008080 !important;
+    }
+
+    .login .login_main .form .form-check-label,
+    .login .login_main .form .forget_password {
+
+        font-size: 13px;
+    }
+
+    .login .submit_btn p {
+        font-size: 15px;
+    }
+
+    .login .submit_btn .sing_in {
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+
+    /* 3- why us */
+    .Why-Us .card .why-us-text h5 {
+        font-size: 16px;
+    }
+
+    .Why-Us .card .why-us-text p, .Why-Us p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    /* 5- Sponsor */
+    .Justlife_protects h2,
+    .Justlife_protects p {
+        color: #fff;
+    }
+
+    .Justlife_protects h2 {
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+
+    .Justlife_protects p {
+        font-size: 16px;
+    }
+
+    .sponser img {
+        width: 50% !important;
+    }
+
+    .Justlife_protects .col-lg-3 {
+        width: 90px !important;
+        height: 90px !important;
+        padding: 1rem !important;
+        margin-top: 2rem !important;
+    }
+
+    .download .img_download {
+        width: 100vw !important;
+    }
+
+    .download .img_download .download_img {
+        width: 50%;
+    }
+
+    .mobile_pic {
+        display: none;
+    }
+
+    /* Start in Sing Up page responsive */
+    .singup {
+        height: auto;
+        padding: 3rem 0 5.5rem 0 !important;
+    }
+
+    .singup .form_head img {
+        width: 95%;
+    }
+
+    .form .form-control,
+    .form .form-select {
+        height: auto !important;
+    }
+
+    .media {
+        margin-bottom: -1rem;
+    }
+
+    .pl1 {
+        padding-left: 0 !important;
+        margin-bottom: 1rem;
+        padding-right: 0rem !important;
+    }
+
+    .pl2 {
+        padding-right: 0 !important;
+        margin-bottom: 1rem;
+        padding-left: 0 !important;
+    }
+
+    .singup .form .form-select {
+        width: 65% !important;
+    }
+
+    /* Start in Verify page responsive */
+    .Verify .form .form_head img {
+        margin-top: 1.5rem;
+        width: 70%;
+    }
+
+    .Verify .form .form_head h4 {
+        margin-top: 1rem !important;
+    }
+
+    .verify .form .form_head {
+        width: 90% !important;
+    }
+
+    .form .form_head h4 {
+        font-size: 19px;
+    }
+
+    .login_main .form {
+        padding: .5rem .5rem;
+    }
+
+    .Verify .form {
+        padding: 0rem 0rem;
+        padding-left: .5rem;
+    }
+
+    /* Start in Phone Number page responsive */
+    /* Phone Number */
+    .phone_login .form {
+        position: absolute;
+        z-index: 1111111;
+        top: 10rem;
+    }
+
+    .phone_login .form .form-select {
+        width: 50% !important;
+    }
+
+    .phone_login .form {
+        padding: 1rem 0rem;
+        width: 90%;
+        left: 1.8rem;
+    }
+
+    /* Start in Booking Step 4 page responsive */
+    /* 1-main Serves Details - product Head */
+    /* .ltr .payment .visa{ */
+    /* margin-left: 5rem !important; */
+    /* } */
+    /* .rtl .payment .visa{ */
+    /* margin-right: 5rem !important; */
+    /* } */
+    /* Start in Booking Step 1 page responsive */
+    .main_book .total {
+        height: auto !important;
+    }
+
+    /* Start in Add Card page responsive */
+    .payment .create_pay {
+        width: 100% !important;
+    }
+
+    .payment .create_pay {
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+
+    }
+
+    .ltr .payment .visa {
+        margin-left: 2.5rem !important;
+    }
+
+    .rtl .payment .visa {
+        margin-right: 2.5rem !important;
+    }
+
+    .main_order .btn_order {
+        margin: 0 !important;
+        margin-bottom: .5rem !important;
+    }
+
+    .contact_main .form_contact .massage {
+        width: 100% !important;
+    }
+
+    .contact_main .form_contact .form-control {
+        height: 6vh !important;
+    }
+
+    .main_policy p {
+        text-align: start !important;
+    }
+
+    .main_buy .mySwiper .swiper-slide {
+        width: 90% !important;
+        margin-right: 1rem !important;
+    }
+
+    .main_credit .main_gift_box {
+        margin-left: .1rem !important;
+    }
+
+    .main_credit .credit_img img {
+        width: 100% !important;
+    }
+
+    .profile .form {
+        padding: 1rem 1rem;
+        border: 1px solid #008080;
+        box-shadow: 2px 2px 10px #0000006e;
+    }
+
+    .profile .form .lastName {
+        margin-bottom: .5rem;
+    }
+
+    .ltr .phone_login .form-select {
+        margin-left: .5rem;
+    }
+
+    .rtl .phone_login .form-select {
+        margin-right: .5rem;
+    }
+
+    .rtl .contact_main .form_contact .massage {
+        padding-right: 5rem;
+        padding-top: .3rem;
+    }
+
+    .phone_login .btn-verify {
+        width: 80%;
+    }
+
+    .Verify .form_head {
+        margin-top: .5rem !important;
+    }
+
+    .main_product_details .mySwiper {
+        height: 10vh;
+    }
+
+    .aboutsay .swiper {
+        width: 90vw !important;
+        height: 50vh !important;
+    }
+
+    .Why-Us .card {
+        height: 30vh;
+        margin-bottom: 1.4rem;
+    }
+
+    .rtl .social_icon {
+        margin: 1rem 0;
+        /* margin-right: 11.2rem !important; */
+    }
+
+    .form .form_head {
+        width: 55%;
+        margin-top: -1rem !important;
+    }
+
+    .form .form_head img {
+        width: 80%;
+    }
+
+    .ltr .allservice .see_more.link {
+        margin-left: 1rem !important;
+    }
+
+    .rtl .allservice .see_more.link {
+        margin-right: 0rem !important;
+    }
+
+    .title h4 {
+        font-size: 20px;
+    }
+
+    .title p {
+        font-size: 16px;
+    }
+
+    .ltr .allservice.Servies {
+        margin-left: .3px;
+    }
+
+    .rtl .allservice.Servies {
+        margin-right: .3px;
+    }
+
+    .serves_div .servies_div .servies_card {
+        width: 45vw;
+        margin: .8rem 0.3rem;
+    }
+
+    .Servies .servies_card {
+        width: 29vw;
+        margin: .8rem 0.4rem;
+    }
+
+    .main_buy .knock_credit h4 {
+        color: #000;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .rtl .main_order .order_title .btn_pending {
+        font-size: 14px !important;
+    }
+
+    .main_card .btn_decrease {
+        padding: 1px 5px !important;
+        height: 3vh;
+        color: #fff;
+        opacity: 1;
+    }
+
+    .ltr .navbar .form .number {
+        right: 56% !important;
+        top: .7rem;
+    }
+
+    .rtl .navbar .form .number {
+        right: 58% !important;
+        top: .7rem;
+    }
+
+    /* style for Policy Page */
+    .policy_row {
+        justify-content: start;
+        margin: 0 1rem !important;
+    }
+
+    .main_terms h2 {
+        font-size: 1.9rem !important;
+        font-weight: 500 !important;
+    }
+
+    /* Style for Get Help */
+    .contact_main .form_contact {
+        margin: 1rem .1rem;
+        padding: .5 0;
+        border-radius: 5px;
+    }
+
+    /* Style of All Serves Page */
+    .search_input {
+        height: 5vh;
+    }
+
+    .provide_serves .Servies .servies_card {
+        margin: .8rem 0.5rem;
+        width: 80%;
+    }
+
+    /* Style for Wallet Page */
+    .ltr .total_credit {
+        padding-left: 2rem;
+    }
+
+    .rtl .total_credit {
+        padding-right: 2rem;
+    }
+
+    /* style for Cart Page Style */
+    .cart_page .main_book .booking_details h4 {
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .book_card .serv_text p {
+        font-size: 14px !important;
+        margin-bottom: .2rem;
+        font-weight: 400;
+    }
+
+    .main_book {
+        overflow-x: hidden;
+    }
+
+    /*  */
+    /* .book_card .serv_text h6 { */
+    /* font-size: 18px; */
+    /* } */
+    /*  */
+    /* .book_card .serv_text span { */
+    /* font-size: 18px; */
+    /* color: #008080; */
+    /* font-weight: 500; */
+    /* } */
+    /* Style for Service Details Page Style */
+    .nots {
+        width: 100%;
+    }
+
+    .time_date .btn-Add {
+        width: 100%;
+    }
+
+    .product_img {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar .navbar-brand {
+        width: 11%;
+    }
+
+    .ltr .navbar .form .number {
+        right: 62% !important;
+        top: .4rem;
+    }
+
+    .rtl .navbar .form .number {
+        right: 63% !important;
+        top: .4rem;
+    }
+
+    .phone_login .form .form-select {
+        width: 59% !important;
+        height: 7vh !important;
+    }
+
+    .serves_names {
+        width: 30% !important;
+    }
+
+    .serves_name {
+        width: 70% !important;
+    }
+
+    .phone_login .form .phone {
+        height: 7vh !important;
+
+    }
+
+    .form-control-verify {
+        margin: 0rem .2rem !important;
+        padding: 0 !important;
+        text-align: center;
+        border: none;
+        border-bottom: 2px solid #008080;
+    }
+
+    .rtl .card.one_Product .card_text_product h6 span {
+        padding-right: 1rem;
+    }
+
+    .header_swiper .swiper {
+        height: 29vh !important;
+        padding: .5rem;
+    }
+
+    .header_swiper .swiper .slide_title {
+        top: 5rem;
+        left: 2rem;
+    }
+
+    .header_swiper .swiper .slide_title h1 {
+        font-size: 17px;
+    }
+
+    .header {
+        height: 60vh;
+    }
+
+    .card.one_Product {
+        height: auto !important;
+        width: 98%;
+    }
+
+    .ltr .card.one_Product {
+        margin-left: 0rem;
+    }
+
+    .Justlife_protects .col-lg-3 {
+        display: none;
+    }
+
+    .Justlife_protects h2, .Justlife_protects p {
+        width: 80vw !important;
+    }
+
+    .total {
+        height: 15vh !important;
+    }
+
+    .time_input .input_time {
+        height: 5.5vh;
+        width: 93%;
+    }
+
+    /* Start in Booking Step 4 page responsive */
+    /* 1-main Serves Details - product Head */
+    .payment .create_pay {
+        width: 95% !important;
+    }
+
+    .ltr .payment .create_pay {
+        margin-left: .5rem !important;
+    }
+
+    .rtl .payment .create_pay {
+        margin-right: .5rem !important;
+    }
+
+    .ltr .payment .visa {
+        margin-left: 2rem !important;
+    }
+
+    .rtl .payment .visa {
+        margin-right: 2rem !important;
+    }
+
+    .payment .nots .icon {
+        font-size: 5rem !important;
+    }
+
+    .payment .nots .btn-details {
+        margin-top: 8rem;
+    }
+
+    /* 4-About Say Home */
+    .swiper {
+        height: 60vh !important;
+    }
+
+    .ltr .payment .visa {
+        margin-left: 1rem !important;
+    }
+
+    .rtl .payment .visa {
+        margin-right: 11rem !important;
+    }
+
+    .main_order .order_card .order_title h4 {
+        font-size: 16px;
+    }
+
+    .ltr .main_order .order_card .order_title p {
+        margin-left: -.6rem !important;
+    }
+
+    .rtl .main_order .order_card .order_title p {
+        margin-right: -.6rem !important;
+    }
+
+    .main_address .sing_in {
+        width: 90% !important;
+    }
+
+    .profile .form .lastName {
+        margin-bottom: 1rem;
+    }
+
+    .profile .delete_acc .delete {
+        font-size: 1.5rem;
+    }
+
+    .profile .delete_acc .delete_account {
+        font-size: 16px;
+        margin-top: 0 !important;
+    }
+
+    .Verify .form_head {
+        width: 50%;
+    }
+
+    .Verify .form_head h4 {
+        padding-top: -.5rem !important;
+    }
+
+    .form-control {
+        height: 6vh !important;
+    }
+
+    .singup .form-select {
+        height: 6vh !important;
+        width: 20% !important;
+    }
+
+    .product_head span, .product_head .page1 {
+        font-size: 13px !important;
+    }
+
+    .time_date .btn {
+        padding: 5px 7px !important;
+    }
+
+    .delivery_date .form-control,
+    .input-group-text,
+    .time_input .input_time {
+        height: 6vh !important;
+    }
+
+    .main_product_details .mySwiper {
+        height: 12vh !important;
+        width: 100%;
+    }
+
+    .aboutsay .swiper {
+        height: 70vh !important;
+    }
+
+    .Why-Us .card {
+        height: 50vh;
+        margin-bottom: 1.4rem;
+    }
+
+    .singup .form .form_head {
+        width: 65%;
+        margin-top: -1rem !important;
+    }
+
+    .singup .form .form_head img {
+        width: 80%;
+    }
+
+    .dropmenu {
+        top: 3.5rem !important;
+        right: .3rem;
+        width: 65vw !important;
+    }
+
+    .total_price span {
+        font-size: 16px;
+    }
+
+    .navbar .form .number {
+        right: 63%;
+        top: .5rem;
+    }
+
+    .main_card .btn_decrease {
+        padding: 1px 5px !important;
+        height: 4vh;
+        color: #fff;
+        opacity: 1;
+    }
+
+    /* Style For Profile Page */
+    .profile {
+        height: auto;
+        padding: 1rem 0 !important;
+    }
+
+    .profile .form .form_head img {
+        width: 45%;
+        margin-bottom: .5rem;
+    }
+
+    /* style for Policy Page */
+    .policy_row {
+        justify-content: start;
+        margin: 0 .5rem !important;
+    }
+
+    /* Style for Login Page */
+    .form .form-control, .form .form-select {
+        height: auto !important;
+    }
+
+    .head_serves {
+        height: 25vh;
+    }
+
+    .search_input {
+        height: 7vh;
+    }
+
+    .head_serves .head_text {
+        position: absolute;
+        top: 5.5rem;
+        left: 38%;
+        z-index: 11;
+    }
+}

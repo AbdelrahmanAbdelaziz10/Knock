@@ -1,0 +1,57 @@
+.head_serves {
+    height: 40vh;
+    position: relative;
+}
+
+.black_hover {
+    width: 100%;
+    height: 100%;
+    background-color: #00000041;
+    position: absolute;
+    z-index: 1;
+}
+
+.head_serves .head_img {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.head_serves .head_text {
+    position: absolute;
+    top: 5rem;
+    left: 45%;
+    z-index: 11;
+}
+
+/* .all_product .head_serves .head_text{ */
+/* left: 40% !important; */
+/* } */
+
+
+.head_serves .head_text h2 {
+    color: #fff !important;
+    font-size: 2.4rem;
+}
+
+.head_serves .head_text .home_icon {
+    color: #fff;
+    font-size: 19px;
+
+}
+
+.head_serves .head_text span {
+    color: #fff !important;
+}
+
+.ltr .head_serves .head_text .home_icon {
+    margin-left: 0rem;
+}
+
+.rtl .head_serves .head_text .home_icon {
+    margin-right: 0rem;
+}

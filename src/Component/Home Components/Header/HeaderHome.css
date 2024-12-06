@@ -1,0 +1,52 @@
+/* Start In Header Section Style */
+.header {
+    background-image: url(../../../images/main.webp);
+    border-image: fill 0 linear-gradient(#0080802c,#0080804b);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header_text h2 {
+    color:#000000ef;
+    margin-bottom: 1rem;
+}
+.header .header_text p {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #000000ef;
+}
+.header .header_text .header_form {
+    background-color: #fff;
+    border-radius: 10px;
+    display: block;
+    width: 65%;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.header .header_text .header_form input {
+    margin-top: 0rem;
+    width: 99%;
+    border-radius: 15px 15px;
+    padding: 9px 20px;
+    border: 1px solid #008080;
+}
+
+.header .header_text .header_form .fa-location-dot {
+    position: relative;
+    top: 2rem;
+    font-size: 1.2rem;
+}
+
+/* End In Header Section Style */

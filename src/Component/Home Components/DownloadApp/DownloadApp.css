@@ -1,0 +1,40 @@
+
+
+/* Start in Download Application Style */
+.download{
+    background-image: linear-gradient(#008080,#fff);
+}
+.download .text {
+    margin-top: 3rem;
+}
+
+.download .text span {
+    color: #9f9f9f;
+    font-weight: 500;
+    font-size: 17px;
+    color: #008080;
+    margin-bottom: 1rem;
+}
+
+.download .text h2 {
+    margin: 1rem 0;
+    color: #fff;
+}
+
+.download .text p {
+    margin: 1rem 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.download .download_img {
+    width: 15vw;
+}
+
+.download .mobile_pic {
+    width: 32vw;
+}
+
+/* End in Download Application  Style */

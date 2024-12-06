@@ -1,0 +1,23 @@
+.main_terms{
+    padding: 2rem 0;
+    background-color: #008080;
+}
+.main_terms h2{
+font-size: 2.2rem;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+color: #fff;
+padding-bottom: 1.5rem ;
+}
+.main_terms p{
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+color: #fff;
+}
+.main_terms ul li{
+    color: #fff;
+    font-size: 18px;
+}

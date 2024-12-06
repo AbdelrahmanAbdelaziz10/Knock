@@ -1,0 +1,126 @@
+{
+  "auth": {
+    "users": [
+      {
+        "id": 1,
+        "first_name": "Ahmed",
+        "last_name": "Ayman",
+        "email": "ahmed2@gmail.com",
+        "phone": "1212123121231",
+        "password": "123456789"
+      }
+    ],
+    "login": {
+      "email": "ahmed2@gmail.com",
+      "password": "123456789"
+    }
+  },
+  "sliders": [
+    {
+      "id": 1,
+      "image_url": "https://example.com/slider1.jpg",
+      "description": "Welcome to Knock Knock!"
+    }
+  ],
+  "categories": {
+    "service_categories": [
+      {
+        "id": 1,
+        "name": "Cleaning"
+      },
+      {
+        "id": 2,
+        "name": "Plumbing"
+      }
+    ],
+    "product_categories": [
+      {
+        "id": 1,
+        "name": "Home Essentials"
+      },
+      {
+        "id": 2,
+        "name": "Kitchenware"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": 1,
+      "name": "House Cleaning",
+      "description": "Complete house cleaning service",
+      "price": 150
+    },
+    {
+      "id": 2,
+      "name": "Plumbing",
+      "description": "Plumbing services including repairs and installations",
+      "price": 200
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Floor Cleaner",
+      "description": "A product for cleaning floors",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "name": "Dish Soap",
+      "description": "Multipurpose dish soap",
+      "price": 30
+    }
+  ],
+  "days": [
+    {
+      "id": 1,
+      "day": "Monday"
+    },
+    {
+      "id": 2,
+      "day": "Tuesday"
+    },
+    {
+      "id": 3,
+      "day": "Wednesday"
+    },
+    {
+      "id": 4,
+      "day": "Thursday"
+    },
+    {
+      "id": 5,
+      "day": "Friday"
+    }
+  ],
+  "service_orders": [
+    {
+      "order_id": 1,
+      "user_id": 1,
+      "service_id": 1,
+      "selected_day_id": 3,
+      "selected_time": "10:00 AM",
+      "payment_method": "Cash",
+      "notes": "Please, I need this service fast.",
+      "address": "Egypt, Cairo",
+      "building_number": "122",
+      "flat_number": "5",
+      "city": "6 October City",
+      "country": "Egypt",
+      "longitude": "31.233334",
+      "latitude": "30.033333",
+      "discount_percentage": 15,
+      "discount_amount": 52.5,
+      "price_after_discount": 297.5,
+      "grand_total": 322.5
+    }
+  ],
+  "coupons": [
+    {
+      "coupon_name": "ahmed123",
+      "service_id": 2,
+      "discount_percentage": 15
+    }
+  ]
+}

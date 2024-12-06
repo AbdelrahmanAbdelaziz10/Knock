@@ -1,0 +1,25 @@
+.main_address .address_card {
+    color: #008080;
+    padding: 1rem 0;
+}
+.main_address .address_card h4{
+    margin-bottom: 2rem;
+}
+
+.main_address .address_card .arrow_icon{
+    color: #008080 !important;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.main_address .address_card .arrow_icon_en{
+    margin-left: 1.5rem;
+}
+.main_address .address_card .arrow_icon_ar{
+    margin-right: 1.5rem;
+
+}
+.main_address .form-control{
+    border-radius: 0 !important;
+    border:0 !important;
+    border-bottom: 2px solid #008080b0 !important;
+}

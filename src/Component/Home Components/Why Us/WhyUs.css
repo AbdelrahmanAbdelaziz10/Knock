@@ -1,0 +1,45 @@
+
+/* Start In Why us Section Style */
+.Why-Us {
+    background-color: #fafafa;
+}
+
+.title h4 {
+    color: #008080;
+
+}
+
+.Why-Us .why-us-text {
+    text-align: center;
+}
+
+.Why-Us .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    height: 45vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Why-Us .card .why-us-icon {
+    width: 40%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.Why-Us .card .why-us-text h5 {
+    color: #008080;
+    margin-bottom: 1.4rem;
+
+}
+
+.Why-Us .card .why-us-text p,
+.Why-Us p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* End In Why us Section Style */

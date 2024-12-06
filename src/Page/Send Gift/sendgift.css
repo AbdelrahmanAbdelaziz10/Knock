@@ -1,0 +1,59 @@
+.gift_credit .credit_transition{
+    padding-bottom: 2rem !important;
+}
+.gift_credit h6{
+    color: #008080;
+    font-size: 1.1rem ;
+    font-weight: 400px;
+}
+.gift_credit .card p{
+    font-size: 14px !important;
+    color: #008080 !important;
+}
+.gift_credit .card .Link{
+    color: #008080 !important;
+    font-size: 1rem !important;
+    font-weight: 500;
+}
+.gift_credit .form-label{
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.gift_credit .link{
+    color: #008080 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+.gift_credit .massage{
+    background-color: #d3d3d3;
+    border: 0 ;
+    height: auto;
+    padding-top: .5rem;
+    margin-bottom: 1rem;
+}
+.gift_credit .massage .add_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gift_credit .massage p{
+    font-size: 18px;
+}
+.gift_credit .border_b{
+    border-bottom: 1px solid #008080;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+.gift_credit .btn_next{
+    background-color: #008080;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.gift_credit .btn_next:hover{
+    opacity: .7;
+    background-color: #008080;
+    color: #fff;
+    transition: all .5s;
+}

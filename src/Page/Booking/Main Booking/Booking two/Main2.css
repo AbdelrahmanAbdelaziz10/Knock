@@ -1,0 +1,40 @@
+.input_time{
+    border: 2px solid #008080 !important;
+    height: 7vh;
+    width: 90%;
+    padding: 0 .5rem;
+    border-radius: 4px;
+}
+.step_2{
+    overflow:hidden !important;
+}
+.display_none{
+    display: none;
+}
+.main_step_2{
+    overflow-y: hidden !important;
+}
+.form_contact .form-floating textarea.form-control.let_Massage{
+    border: 2px solid #008080 !important;
+    height: 30vh !important;
+    width: 100% !important;
+    border-radius: 5px !important;
+    margin-top: .8rem !important;
+}
+.phone_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000009f;
+    height: 100vh;
+    position: absolute;
+inset: 0;
+    z-index: 111111111;
+    height: 100vh;
+    overflow: hidden !important;
+}
+.ltr .massage{
+    padding-left: 1rem;
+    padding-top: .5rem;
+    margin-left: 1rem;
+}

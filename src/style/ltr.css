@@ -1,0 +1,26 @@
+.ltr{
+    direction: ltr;
+}
+/* all ltr header style */
+.ltr .header .header_text .header_form input {
+    padding-left: 2rem;
+}
+.ltr .header .header_text .header_form .fa-location-dot {
+    left: .5rem;
+}
+/* all serves ltr style*/
+.ltr .allservice .link span{
+    padding-left: 4rem;
+}
+
+
+/* footer ltr style */
+.ltr .footer .footer_serves {
+    margin-right: 1rem;
+}
+.ltr .footer .social_icon {
+    margin-left: 5rem;
+}
+.ltr .footer .footer_list {
+    margin-left: 6rem;
+}

@@ -1,0 +1,114 @@
+.contact_main {
+    background-color: #fafafa;
+    padding: 2rem 0;
+}
+
+.contact_main h2 {
+    margin-bottom: 2rem !important;
+}
+
+.contact_main .form_contact {
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #00000036;
+    border: .5px solid #cecece !important;
+
+}
+
+.contact_main .form-control {
+    border: 1px solid #0000007c !important;
+
+}
+
+.contact_main .form_contact .form-label {
+    font-size: 19px !important;
+    font-weight: 500;
+    padding-bottom: .4rem;
+}
+
+.contact_main .form_contact .form-control {
+    border: 2px solid #008080 !important;
+    border-radius: 5px;
+}
+
+.contact_main .massage {
+    margin: 0 !important;
+    margin-top: 1rem;
+
+}
+
+.contact_main .form_contact .btn_submit {
+    background-color: #008080 !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 7px 35px;
+}
+
+.contact_main .form_contact .btn_submit:hover {
+    background-color: #fff !important;
+    border: 1px solid #008080;
+    transition: all .5s;
+    color: #008080;
+}
+
+.contact_main .contact_card {
+    padding: 1rem;
+    padding-top: 4rem;
+    background-color: #fafafa;
+    box-shadow: 2px 2px 10px #00000036;
+
+}
+
+.contact_main .contact_card .contact_icon {
+    color: #008080;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.contact_main .contact_card p {
+    margin-bottom: 2rem;
+}
+
+.contact_main .contact_card span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact_main .soicalmedia_icon {
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    margin: 2rem 0;
+}
+
+.contact_main .soicalmedia_icon:hover {
+    transition: all .5s;
+    transform: scale(1.2);
+}
+
+.contact_main .soicalmedia_icon.facebook:hover {
+    color: rgba(0, 0, 255, 0.925) !important;
+}
+
+.contact_main .soicalmedia_icon.x:hover {
+    color: #000 !important;
+}
+
+.contact_main .soicalmedia_icon.instagram:hover {
+    color: #E51E63 !important;
+}
+
+.ltr .contact_main .contact_card .contact_icon {
+    margin-right: 1rem;
+}
+
+.rtl .contact_main .contact_card .contact_icon {
+    margin-left: 1rem;
+}
+
+.contact_alert {
+    width: 60% !important;
+    font-weight: 500 !important;
+
+}

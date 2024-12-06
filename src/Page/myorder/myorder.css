@@ -1,0 +1,85 @@
+.main_order .btn_order{
+    /* background-color: #008080; */
+    color: #008080;
+    border: 2px solid #008080;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 2px 2px 10px #00000081;
+}
+.main_order .btn_order:hover{
+    background-color: #008080;
+    color: #fff;
+    transition: all .5s;
+
+}
+.main_order .active{
+    background-color: #008080 !important;
+    color: #fff !important;
+    border: 2px solid #008080 !important;
+
+}
+.main_order .order_card{
+    border: 0;
+    padding:1rem;
+    box-shadow: 2px 2px 10px #00000086;
+    margin-top: 1rem;
+}
+.main_order .order_title{
+    position: relative;
+}
+.main_order .order_title::after{
+    content: "";
+    background-color: #0080807a;
+    width: 100%;
+    height: .2vh;
+    margin-bottom: .5rem;
+}
+.main_order .order_title h4{
+    cursor: pointer;
+    font-size: 19px;
+    color: #000000da;
+    padding-top: .3rem;
+}
+.main_order .order_title h4:hover{
+    color: #008080 ;
+    transition: all .5s;
+}
+.main_order .order_title .btn_pending{
+    color: #ffa500;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ffa60057;
+    padding: 5px 14px;
+    margin-bottom: .5rem;
+}
+.main_order .order_details p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+}
+.main_order .order_details p span{
+    color: #008080;
+}
+.main_order .date p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+}
+.ltr .main_order .pending_address p{
+    padding-left:0rem !important;
+}
+.ltr .main_order .pending_phone p{
+    padding: 0 !important;
+}
+.ltr .main_order .pending_address h6{
+    padding-right: 0rem !important;
+}
+.serv_text h6{
+    color: #008080;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.serv_text p{
+    font-size: 1rem;
+    font-weight: 500;
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+a,Link {
+  text-decoration: none !important;
+  /* color: #fff !important; */
+}
+.footer a,.footerLink {
+  color: #fff !important;
+}
+.homepage{
+  overflow: hidden;
+}
+.arrow_icon{
+  color: #008080;
+}
+.ltr .btn.visa_img{
+  margin-left: 1rem;
+}
+.rtl .btn.visa_img{
+  margin-right: 1.5rem;
+}

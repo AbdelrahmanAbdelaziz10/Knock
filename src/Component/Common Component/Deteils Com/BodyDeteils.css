@@ -1,0 +1,198 @@
+.body_details h4 {
+    color: #008080;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.body_details p,
+.body_details li {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.body_details .stock h4 span {
+    color: #000000d7;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.body_details .time_date h5 {
+    color: #008080;
+}
+
+.delivery_date h5 {
+    color: #000 !important;
+    font-size: 17px;
+    margin-bottom: 1rem;
+}
+
+.delivery_date h5 span {
+    color: #008080;
+}
+
+.price_serves h4 .discount {
+    color: red !important;
+}
+
+.body_details .time_input .input_time {
+    border: 2px solid #008080d2;
+    border-radius: 5px;
+    padding: 0 .5rem;
+    height: 7vh;
+    width: 20vw;
+}
+
+.form-control {
+    border: 2px solid #008080d2 !important;
+    padding: 0 .5rem;
+    height: 7vh !important;
+    border-radius: 5px !important;
+}
+
+.ltr .form-control {
+    /* border-right: 0px !important; */
+}
+
+.rtl .form-control {
+    /* border-left: 0px !important; */
+    border-right: 2px solid #008080 !important;
+    border-radius: 0 5px 5px 0 !important;
+
+}
+
+.rtl .input-group-text {
+    border-right: 0 !important;
+    border-left: 2px solid #008080 !important;
+    border-radius: 5px 0 0 5px !important;
+}
+
+.input-group-text {
+    height: 7vh !important;
+    cursor: pointer;
+    border: 2px solid #008080d2 !important;
+    border-left: 0px !important;
+    border-radius: 0 4px 4px 0 !important;
+
+}
+
+.calender_icon {
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+}
+
+.time_date h5 {
+    color: #008080;
+}
+
+.ltr .time_date h5 {
+    margin-left: 1rem;
+}
+
+.rtl .time_date h5 {
+    margin-right: 1rem;
+}
+
+.time_date .btn {
+    background-color: #008080;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.time_date .add_btn .decincrease,
+.time_date .add_btn .increase {
+    margin: 1rem;
+}
+
+.time_date .add_btn .decincrease .remove,
+.time_date .add_btn .increase .add {
+    color: #fff;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
+.total_price {
+    padding: 6px 10px;
+    background-color: #fff !important;
+    /* border: 2px solid #008080; */
+    color: #000 !important;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+}
+
+.total_price span {
+    color: #008080;
+    font-size: 19px;
+}
+
+.ltr .total_price {
+    margin-left: 4rem;
+}
+
+.rtl .total_price {}
+
+.time_date .btn-Add {
+    font-size: 17px;
+    font-weight: 500;
+    width: 90%;
+}
+
+.rtl .time_date .btn-Add {
+    margin-right: 10%;
+}
+
+/* .rtl .time_date .btn-Add{ */
+/* margin-right: 50%; */
+/* } */
+.time_date .btn:hover {
+    opacity: .8;
+    background-color: #008080;
+    color: #fff;
+}
+
+.nots {
+    display: flex;
+    background-color: #D3D3D3;
+    width: 90%;
+    border-radius: 20px;
+    padding: .5rem;
+}
+
+.nots .icon {
+    font-size: 1.9rem;
+}
+
+.nots p {
+    font-weight: 500;
+}
+
+.nots .btn-details {
+    color: #008080;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 .4rem;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+
+.ltr .nots .icon {
+    margin-right: .5rem;
+}
+
+.rtl .nots .icon {
+    margin-left: .5rem;
+}
+
+.btn_day {
+    opacity: .8;
+}
+
+.btn_day.action {
+    opacity: 1;
+}
+
+.day_booking.col p {
+    margin: 0 .1rem;
+}
