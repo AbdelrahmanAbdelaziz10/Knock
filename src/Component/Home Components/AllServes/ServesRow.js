@@ -6,11 +6,13 @@ import { useTranslation } from "react-i18next";
 import OneServe from "./OneServe";
 import OneProduct from "./OneProduct";
 
-export const ServesRow = ({ title, link, toggleLogin }) => {
+export const ServesRow = ({ title, link }) => {
   const { t } = useTranslation();
   const { data, error, loading } = useFetch("/data.json");
   const allProduct = data?.products;
   const allServes = data?.services;
+  const toggleLogin = JSON.parse(localStorage.getItem("toggleLogin"));
+
   if (loading) return <h3 className="text-center m-3">Loading...</h3>;
   if (error) return <h3 className="text-center m-3">Error loading data.</h3>;
 

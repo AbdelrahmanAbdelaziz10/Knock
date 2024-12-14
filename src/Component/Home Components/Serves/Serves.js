@@ -14,8 +14,6 @@ export const Serves = () => {
   // const { data: serves } = useFetch("/api/v1/services/get-all");
   const { data, error, loading } = useFetch("/data.json");
   const toggleLogin = JSON.parse(localStorage.getItem("toggleLogin"));
-  const { selectedLanguage, setSelectedLanguage } = useContext(ContextLang);
-  const navigate = useNavigate();
 
   const allServes = data?.services;
 
@@ -59,7 +57,6 @@ export const Serves = () => {
           title={t("home_category3")}
           link={"/product"}
           className="productRow "
-          toggleLogin={toggleLogin}
         />
       </div>
     </section>
