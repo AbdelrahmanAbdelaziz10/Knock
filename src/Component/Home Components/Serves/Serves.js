@@ -21,23 +21,7 @@ export const Serves = () => {
 
   if (loading) return <h3 className="text-center m-3">Loading...</h3>;
   if (error) return <h3 className="text-center m-3">Error loading data.</h3>;
-  const handelLogInPage = () => {
-    Swal.fire({
-      icon: "error",
-      title: selectedLanguage === "ar" ? "عفوًا..." : "Oops...",
-      text:
-        selectedLanguage === "ar"
-          ? "يجب أن يكون لديك حساب أولاً لاستخدام هذه الخدمة."
-          : "You must have an account first to use this service.",
-      confirmButtonText:
-        selectedLanguage === "ar" ? "الذهاب إلى تسجيل الدخول" : "Go to Login",
-    }).then((result) => {
-      /* Read more about isConfirmed, isDenied below */
-      if (result.isConfirmed) {
-        navigate("/login");
-      }
-    });
-  };
+
   return (
     <section className="Servies serves_div allservice py-5">
       <div className="container">
@@ -56,21 +40,7 @@ export const Serves = () => {
                 <span>{t("home_see_more")}</span>
               </Link>
             </Col>
-          ) : (
-            <Col
-              xs={4}
-              lg={3}
-              md={4}
-              sm={4}
-              className=""
-              onClick={handelLogInPage}
-            >
-              <p className="link see_more">
-                {" "}
-                <span>{t("home_see_more")}</span>
-              </p>
-            </Col>
-          )}
+          ) : null}
         </div>
         <div className="row servies_div  justify-content-center">
           {allServes?.slice(0, 5).map((serve, index) => {
@@ -90,7 +60,6 @@ export const Serves = () => {
           link={"/product"}
           className="productRow "
           toggleLogin={toggleLogin}
-          handelLogInPage={handelLogInPage}
         />
       </div>
     </section>
