@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import OneServe from "./OneServe";
 import OneProduct from "./OneProduct";
 
-export const ServesRow = ({ title, link }) => {
+export const ServesRow = ({ title, link, toggleLogin, handelLogInPage }) => {
   const { t } = useTranslation();
   const { data, error, loading } = useFetch("/data.json");
   const allProduct = data?.products;
@@ -20,11 +20,27 @@ export const ServesRow = ({ title, link }) => {
         <Col xs={8} lg={9} md={8} sm={8} className="">
           <h4>{title}</h4>
         </Col>
-        <Col xs={4} lg={3} md={4} sm={4} className="">
-          <Link to={link} className="link see_more">
-            <span>{t("home_see_more")}</span>
-          </Link>
-        </Col>
+        {toggleLogin === true ? (
+          <Col xs={4} lg={3} md={4} sm={4} className="">
+            <Link to={link} className="link see_more">
+              <span>{t("home_see_more")}</span>
+            </Link>
+          </Col>
+        ) : (
+          <Col
+            xs={4}
+            lg={3}
+            md={4}
+            sm={4}
+            className=""
+            onClick={handelLogInPage}
+          >
+            <p className="link see_more">
+              {" "}
+              <span>{t("home_see_more")}</span>
+            </p>
+          </Col>
+        )}
       </div>
       {title === t("home_category3") ? (
         <div className="row servies">

@@ -54,4 +54,8 @@
     font-size: 14px;
 }
 
+.see_more {
+    cursor: pointer;
+}
+
 /* End In Serves Section Style */

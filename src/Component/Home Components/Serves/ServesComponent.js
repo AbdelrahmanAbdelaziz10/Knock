@@ -13,9 +13,13 @@ const ServesComponent = ({ name_en, name_ar, image, link, key }) => {
   const handelLogInPage = () => {
     Swal.fire({
       icon: "error",
-      title: "Oops...",
-      text: "You Must Have account First To use this serves",
-      confirmButtonText: "Go to Login",
+      title: selectedLanguage === "ar" ? "عفوًا..." : "Oops...",
+      text:
+        selectedLanguage === "ar"
+          ? "يجب أن يكون لديك حساب أولاً لاستخدام هذه الخدمة."
+          : "You must have an account first to use this service.",
+      confirmButtonText:
+        selectedLanguage === "ar" ? "الذهاب إلى تسجيل الدخول" : "Go to Login",
     }).then((result) => {
       /* Read more about isConfirmed, isDenied below */
       if (result.isConfirmed) {

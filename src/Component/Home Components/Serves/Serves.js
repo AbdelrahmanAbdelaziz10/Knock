@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Serves.css";
 import { Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
@@ -7,17 +7,37 @@ import useFetch from "../../../hooks/useFetch";
 import ServesComponent from "./ServesComponent";
 import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
+import { ContextLang } from "../../../App";
 
 export const Serves = () => {
   const { t, i18n } = useTranslation();
   // const { data: serves } = useFetch("/api/v1/services/get-all");
   const { data, error, loading } = useFetch("/data.json");
+  const toggleLogin = JSON.parse(localStorage.getItem("toggleLogin"));
+  const { selectedLanguage, setSelectedLanguage } = useContext(ContextLang);
+  const navigate = useNavigate();
 
   const allServes = data?.services;
 
   if (loading) return <h3 className="text-center m-3">Loading...</h3>;
   if (error) return <h3 className="text-center m-3">Error loading data.</h3>;
-
+  const handelLogInPage = () => {
+    Swal.fire({
+      icon: "error",
+      title: selectedLanguage === "ar" ? "عفوًا..." : "Oops...",
+      text:
+        selectedLanguage === "ar"
+          ? "يجب أن يكون لديك حساب أولاً لاستخدام هذه الخدمة."
+          : "You must have an account first to use this service.",
+      confirmButtonText:
+        selectedLanguage === "ar" ? "الذهاب إلى تسجيل الدخول" : "Go to Login",
+    }).then((result) => {
+      /* Read more about isConfirmed, isDenied below */
+      if (result.isConfirmed) {
+        navigate("/login");
+      }
+    });
+  };
   return (
     <section className="Servies serves_div allservice py-5">
       <div className="container">
@@ -29,12 +49,28 @@ export const Serves = () => {
           <Col xs={8} lg={9} md={8} sm={8} className="">
             <h4>{t("f-serves")}</h4>
           </Col>
-          <Col xs={4} lg={3} md={4} sm={4} className="">
-            <Link to="/serves" className="link see_more">
-              {" "}
-              <span>{t("home_see_more")}</span>
-            </Link>
-          </Col>
+          {toggleLogin === true ? (
+            <Col xs={4} lg={3} md={4} sm={4} className="">
+              <Link to="/serves" className="link see_more">
+                {" "}
+                <span>{t("home_see_more")}</span>
+              </Link>
+            </Col>
+          ) : (
+            <Col
+              xs={4}
+              lg={3}
+              md={4}
+              sm={4}
+              className=""
+              onClick={handelLogInPage}
+            >
+              <p className="link see_more">
+                {" "}
+                <span>{t("home_see_more")}</span>
+              </p>
+            </Col>
+          )}
         </div>
         <div className="row servies_div  justify-content-center">
           {allServes?.slice(0, 5).map((serve, index) => {
@@ -53,6 +89,8 @@ export const Serves = () => {
           title={t("home_category3")}
           link={"/product"}
           className="productRow "
+          toggleLogin={toggleLogin}
+          handelLogInPage={handelLogInPage}
         />
       </div>
     </section>
